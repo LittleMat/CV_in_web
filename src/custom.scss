@@ -1,0 +1,68 @@
+// Stuff for printing the page
+@page { size: auto;  margin: 0mm; padding: 0mm;}
+@media print {
+	body {-webkit-print-color-adjust: exact;}
+}
+
+// Variables
+$green: green;
+$theme-colors: (
+  "primary": #382360, 
+);
+$part_1_width: 33%;
+
+
+// Initial value for A4 dimensions
+.part_1{
+	width: $part_1_width;
+	@extend .h-100;
+}
+
+.part_2{
+	width: 100 - $part_1_width;
+	@extend .h-100;
+}
+
+body { 
+	//box-sizing: border-box;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+
+	height: 297mm ; 
+	width:210mm; 
+	margin:0; 
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+h1 {
+	color:red;
+	font-size: 13px;
+}
+
+
+// Personnal info
+.name {
+	font-family: 'Roboto-Bold';
+	letter-spacing: 0.2mm;
+	font-size: 10mm;
+	line-height: 9mm;
+}
+
+.small_info {
+	font-family: 'Roboto-Light';
+	letter-spacing: 0.1mm;
+	font-size: 4mm;
+	line-height: 5mm;
+}
+
+.small_info_space {
+	margin-top: 8mm;
+}
+
+
+// Custom classes
+.min-100 {
+	min-height: 100%;
+}
