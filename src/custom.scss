@@ -1,0 +1,37 @@
+@page { size: auto;  margin: 0mm; padding: 0mm;}
+@media print {
+body {-webkit-print-color-adjust: exact;}
+}
+
+$green: green;
+
+body { 
+	box-sizing: border-box;
+	height: 296mm ; 
+	width:210mm; 
+	margin:0; 
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+h1 {
+	color:blue;
+	font-size: 13px;
+}
+
+.min-100 {
+	min-height: 100%;
+}
+
+.bg-red {
+	background-color: red;
+}
+
+.bg-blue {
+	background-color: blue;
+}
+
+.bg-green { 
+	background-color: $green;
+}
