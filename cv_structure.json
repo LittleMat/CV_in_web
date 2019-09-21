@@ -1,0 +1,42 @@
+{
+	"CV" : {
+		"objectif" : { 
+			"title" : "",
+			"text" : ""
+		},
+		"personnal" : {
+			"last_name" : "",
+			"first_name" : "",
+			"picture" : "",
+			"age" : "",
+			"nationality" : "",
+			"address" : "",
+			"phone" : "",
+			"email" : "",
+			"mobility" : "",
+			"personnal_website" : ""
+		},
+		"small_components" : [
+			{
+				"title" : "",
+				"content" : "",
+				"list" : [""], // List with bullet points
+				"array" : [""]// List without bullet points
+			}
+		],
+		"big_components" : [
+			{
+				"title" : "",
+				"icon" : "",
+				"elements" : [
+					{
+						"date_begin" : "",
+						"date_end" : "",
+						"text" : "",
+						"list" : [""]
+					}
+				]
+			}
+		]
+	}
+}

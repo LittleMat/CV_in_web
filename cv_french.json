@@ -1,0 +1,80 @@
+{
+	"CV" : {
+		"objectif" : { 
+			"title" : "Objectif",
+			"text" : "Stage en informatique de 3,5 mois"
+		},
+		"personnal" : {
+			"last_name" : "Montgomery",
+			"first_name" : "Mathieu ",
+			"picture" : "",
+			"age" : "21 ans",
+			"nationality" : "Nationalité française",
+			"address" : "Villeurbanne, France ",
+			"phone" : "+33 7 81 64 03 47",
+			"email" : "matmont98@gmail.com",
+			"mobility" : "Mobilité internationale",
+			"personnal_website" : "Me découvrir : mathieu-montgomery.ovh"
+		},
+		"small_components" : [
+			{
+				"title" : "Langues",
+				"content" : "",
+				"array" : [
+					"Français : bilingue  (langue natale)",
+					"Anglais : bilingue  (TOEIC: 935/990, père anglais)",
+					"Allemand : niveau moyen",
+					"Mandarin : notions (débutant)"
+				]
+			},
+			{
+				"title" : "Qualités",
+				"content" : "",
+				"list" : ["Rigueur", "Esprit d'équipe ", "Curiosité", "Leadership", "Créativité"]
+
+			},
+			{
+				"title" : "Activités / Hobby",
+				"content" : "Théâtre  (association TTI INSA), sport, lecture, bricolage"
+			}
+		],
+		"big_components" : [
+			{
+				"title" : "Formation",
+				"icon" : "",
+				"elements" : [
+					{
+						"date_begin" : "2018",
+						"date_end" : "Présent",
+						"text" : "INSA Lyon Informatique, actuellement en 4ème année"
+					},
+					{
+						"date_begin" : "2018",
+						"text" : "Semestre en ERASMUS  au  Danemark à Horsens, Via University"
+					},
+					{
+						"date_begin" : "2016",
+						"date_end" : "2018",
+						"text" : "DUT Informatique à Illkirch (67) "
+					},
+					{
+						"date_begin" : "2016",
+						"text" : "Bac S  mention très bien  à Strasbourg (67)"
+					}
+				]
+			},
+			{
+				"title" : "",
+				"icon" : "",
+				"elements" : [
+					{
+						"date_begin" : "",
+						"date_end" : "",
+						"text" : "",
+						"list" : [""]
+					}
+				]
+			}
+		]
+	}
+}
