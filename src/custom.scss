@@ -1,18 +1,16 @@
-// Stuff for printing the page
+// --------------------------------------------------------------
+//				    Stuff for printing the page
+// --------------------------------------------------------------
+
 @page { size: auto;  margin: 0mm; padding: 0mm;}
 @media print {
 	body {-webkit-print-color-adjust: exact;}
 }
 
-// Variables
-$green: green;
-$theme-colors: (
-  "primary": #382360, 
-);
-$part_1_width: 33%;
+// --------------------------------------------------------------
+//				Initial value for A4 dimensions
+// --------------------------------------------------------------
 
-
-// Initial value for A4 dimensions
 .part_1{
 	width: $part_1_width;
 	@extend .h-100;
@@ -42,7 +40,23 @@ h1 {
 }
 
 
-// Personnal info
+// --------------------------------------------------------------
+//				         Variables
+// --------------------------------------------------------------
+
+$green: green;
+$part_1_width: 33%;
+$theme-colors: (
+  "primary": #382360, 
+);
+
+$space_small: 0mm;
+$space_big: 0mm;
+
+// --------------------------------------------------------------
+//						Personnal info
+// --------------------------------------------------------------
+
 .name {
 	font-family: 'Roboto-Bold';
 	letter-spacing: 0.2mm;
@@ -61,8 +75,43 @@ h1 {
 	margin-top: 8mm;
 }
 
+// --------------------------------------------------------------
+//						Small component
+// --------------------------------------------------------------
 
-// Custom classes
+.small_component_holder{ 
+	margin-top: $space_small;
+} 
+
+.small_c_title{
+	font-family: 'Roboto-Bold';
+	text-transform: uppercase; 
+} 
+
+.small_c_content{
+
+}
+
+.small_c_array{
+
+}
+
+.small_c_list{
+
+}
+
+// --------------------------------------------------------------
+//						Big component
+// --------------------------------------------------------------
+
+// --------------------------------------------------------------
+//						Objectif
+// --------------------------------------------------------------
+
+// --------------------------------------------------------------
+//						Custom class
+// --------------------------------------------------------------
+
 .min-100 {
 	min-height: 100%;
 }

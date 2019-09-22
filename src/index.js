@@ -2,7 +2,9 @@ import _ from 'lodash';
 import style from './scss/style.scss';
 import $ from 'jquery';
 import PersonnalPattern from './patterns/personnal.pattern.js';
-import SmallComponentPattern from './patterns/small_components.pattern.js';
+import SmallComponentPattern from './patterns/small_component.pattern.js';
+import BigComponentPattern from './patterns/big_component.pattern.js';
+import ObjectifPattern from './patterns/objectif.pattern.js';
 
 require('../dist/index.html')
 const cv_json = require('../cv_french.json')
@@ -15,17 +17,38 @@ function pattern_personnal() {
 	let injectable = personnalPattern.getHtml(); // What is going to be injected (html)
 	
 	output.innerHTML = injectable; // Inject html structure 
-}
+} 
 
 function pattern_small_components() {
-	let output = document.querySelector('#small_components');
+	let output = document.querySelector('#pattern_small_component');
 	let injectable = '';
 	let c = cv_json.CV.small_components;
 
 	for (var comp in c) {
 		let smallComponentPattern = new SmallComponentPattern(c[comp].title, c[comp].content, c[comp].array, c[comp].list);
-		console.log(smallComponentPattern.getHtml())
 		injectable += smallComponentPattern.getHtml();
+	}
+
+	output.innerHTML = injectable; // Inject html structure 
+}
+
+function pattern_objectif(){
+	let output = document.querySelector('#pattern_objectif');
+	let c = cv_json.CV.objectif;
+	let objectifPattern = new ObjectifPattern(c.title, c.text);
+	let injectable = objectifPattern.getHtml();
+
+	output.innerHTML = injectable;
+}
+
+function pattern_big_components() {
+	let output = document.querySelector('#pattern_big_component');
+	let injectable = '';
+	let c = cv_json.CV.big_components;
+
+	for (var comp in c) {
+		let bigComponentPattern = new BigComponentPattern(c[comp].title, c[comp].icon, c[comp].elements);
+		injectable += bigComponentPattern.getHtml();
 	}
 
 	output.innerHTML = injectable; // Inject html structure 
@@ -34,3 +57,5 @@ function pattern_small_components() {
 
 pattern_personnal();
 pattern_small_components();
+pattern_objectif();
+pattern_big_components();

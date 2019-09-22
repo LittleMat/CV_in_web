@@ -64,14 +64,85 @@
 				]
 			},
 			{
-				"title" : "",
+				"title" : "Expérience professionnelle",
 				"icon" : "",
 				"elements" : [
 					{
-						"date_begin" : "",
+						"date_begin" : "Juin 2019",
+						"date_end" : "Août 2019",
+						"text" : "Stage  chez  Axopen , participation à  4 projets  différents :",
+						"list" : [
+							"EADV 2019 : réalisation de slide en web ( HTML/CSS/JS ).",
+							"Bouyers : réalisation de la page de paramétrage en  Angular  d’un outil de mesure du niveau sonore d’une salle.",
+							"Site web d’Axopen : création de pages pour le site internet d’Axopen en PHP/HTML/CSS  (Wordpress).",
+							"Sport dans la ville : création de la page de modification/ inscription des jeunes de l’association en  Angular."
+						]
+					},
+					{
+						"date_begin" : "Juillet 2018 ",
+						"text" : "Travail saisonnier au service propreté de la ville de Strasbourg "
+					},
+					{
+						"date_begin" : "Juin 2018 ",
+						"text" : "Travail en intérim  chez JYSK (manutention)"
+					},
+					{
+						"date_begin" : "2017",
+						"text" : "Distribution du journal municipal pour une Mairie"
+					}
+				]
+			},
+			{
+				"title" : "Langages/Framework/Logiciels",
+				"icon" : "",
+				"elements" : [
+					{
+						"date_begin" : "Maîtrisé",
+						"text" : "C#, Java, Python, HTML, CSS, JavaScript, MySql, Materialize (CSS), Bootstrap (CSS), Laravel (PHP), Angular (JS), Adobe Premier Pro, suite bureautique Word"
+					},
+					{
+						"date_begin" : "Familiers",
+						"text" : "PL/SQL, C, NodeJs, ReactJs, NextJs, Adobe Photoshop, Blender, Unity "
+					},
+					{
+						"date_begin" : "Notions",
+						"text" : "SAS, Langage Shell (unix), assembleur"
+					}
+				]
+			},
+			{
+				"title" : "Projets",
+				"icon" : "",
+				"elements" : [
+					{
+						"date_begin" : "2019",
+						"date_end" : "2020",
+						"text" : "Secrétaire de l’association d'algorithme INSAlgo (association pour s’améliorer en algorithmie)"
+					},
+					{
+						"date_begin" : "2017",
+						"date_end" : "Présent",
+						"text" : "Compétitions de développement: Shaker, Battle Dev"
+					},
+					{
+						"date_begin" : "2016",
+						"date_end" : "Présent",
+						"text" : "Hackathons : hacking industry camp, la nuit de l’info, 24h des IUT"
+					},
+					{
+						"date_begin" : "2016",
 						"date_end" : "",
-						"text" : "",
-						"list" : [""]
+						"text" : "Création site web personnel : www.mathieu-montgomery.ovh"
+					},
+					{
+						"date_begin" : "2016",
+						"date_end" : "2018",
+						"text" : "Bénévole dans l’équipe de montage du long métrage Edhalion"
+					},
+					{
+						"date_begin" : "2013",
+						"date_end" : "2017",
+						"text" : "Bénévole dans l'équipe d'organisation d’un tournoi annuel de sport (Jeu de thèque, 400 participants)"
 					}
 				]
 			}

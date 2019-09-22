@@ -1,25 +1,50 @@
-// Stuff for printing the page
+// --------------------------------------------------------------
+//				         Variables
+// --------------------------------------------------------------
+
+$color_date:#595959;
+$color_main: #4e377a;
+
+$theme-colors: (
+  "primary": $color_main, 
+);
+
+$part_1_width: 31%;
+$space_small: 10mm;
+$space_big: 8mm;
+$padding_left_panel:5mm;
+$padding_right_panel:5mm;
+
+$date_width: 21%;
+
+$font_title: Roboto-Bold;
+$size_title: 5mm;
+$font_text: Roboto-Light;
+$size_text: 3.8mm;
+$line_height_text: 5mm;
+$size_date: 3.7mm;
+// --------------------------------------------------------------
+//				    Stuff for printing the page
+// --------------------------------------------------------------
+
 @page { size: auto;  margin: 0mm; padding: 0mm;}
 @media print {
 	body {-webkit-print-color-adjust: exact;}
 }
 
-// Variables
-$green: green;
-$theme-colors: (
-  "primary": #382360, 
-);
-$part_1_width: 33%;
+// --------------------------------------------------------------
+//				Initial value for A4 dimensions
+// --------------------------------------------------------------
 
-
-// Initial value for A4 dimensions
 .part_1{
 	width: $part_1_width;
+	padding: $padding_left_panel 0 $padding_left_panel $padding_left_panel;
 	@extend .h-100;
 }
 
 .part_2{
 	width: 100 - $part_1_width;
+	padding:$padding_right_panel;
 	@extend .h-100;
 }
 
@@ -37,23 +62,25 @@ body {
 }
 
 h1 {
-	color:red;
+	color:red; 
 	font-size: 13px;
 }
 
+// --------------------------------------------------------------
+//						Personnal info
+// --------------------------------------------------------------
 
-// Personnal info
 .name {
 	font-family: 'Roboto-Bold';
 	letter-spacing: 0.2mm;
-	font-size: 10mm;
+	font-size: 9.5mm;
 	line-height: 9mm;
 }
 
 .small_info {
 	font-family: 'Roboto-Light';
 	letter-spacing: 0.1mm;
-	font-size: 4mm;
+	font-size: $size_text;
 	line-height: 5mm;
 }
 
@@ -61,8 +88,87 @@ h1 {
 	margin-top: 8mm;
 }
 
+// --------------------------------------------------------------
+//						Small component
+// --------------------------------------------------------------
 
-// Custom classes
+.small_component_holder{ 
+	margin-top: $space_small;
+} 
+
+.small_c_title{
+	font-family: $font_title;
+	text-transform: uppercase; 
+} 
+
+.small_c_content, .small_c_array, .small_c_list{
+	font-size: $size_text;
+	font-family: $font_text;
+	line-height: 5.1mm;
+}
+
+// --------------------------------------------------------------
+//						Big component
+// --------------------------------------------------------------
+.big_component_holder{
+	margin-top: $space_big;
+}
+
+.big_c_title{
+	color:$color_main;
+	font-family: $font_title;
+	text-transform: uppercase;
+	font-size: $size_title;
+}
+
+.big_c_elements_holder{
+	border-top: 1px solid $color_main;
+}
+
+.big_c_element{
+	display:flex;
+	margin-top: 2mm;
+}
+
+.big_c_el_date{
+	box-sizing: border-box;
+	padding-right: 2mm;
+	width: $date_width;
+	font-family: Roboto-Light; 
+	font-size: $size_date;
+	color: $color_date;
+}
+
+.big_c_el_text{
+	width: 100-$date_width;
+	font-family: $font_text;
+	font-size: $size_text;
+	line-height: $line_height_text;
+}
+// --------------------------------------------------------------
+//						Objectif
+// --------------------------------------------------------------
+
+.objectif_title {
+	color: $color_main;
+	text-transform: uppercase;
+	font-family: $font_title;
+	font-size: 7mm;
+}
+
+.objectif_text {
+	font-family: $font_text;
+	font-size: 5mm;
+}
+
+// --------------------------------------------------------------
+//						Custom class
+// --------------------------------------------------------------
+
 .min-100 {
 	min-height: 100%;
+}
+
+.hidden { 
+	display: none; 
 }

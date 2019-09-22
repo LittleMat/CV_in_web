@@ -4,7 +4,7 @@ const DIST_DIR = path.resolve(__dirname, "dist");
 module.exports = {
 	entry: './src/index.js',
 	output: {
-		path: path.resolve(__dirname, 'dist'),
+		path: DIST_DIR,
 		filename: 'cv.bundle.js'
 	},
 
