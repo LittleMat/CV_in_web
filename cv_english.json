@@ -1,0 +1,151 @@
+{
+	"CV" : {
+		"objectif" : { 
+			"title" : "Objective",
+			"text" : "Stage en informatique de 3,5 mois"
+		},
+		"personnal" : {
+			"last_name" : "Montgomery",
+			"first_name" : "Mathieu ",
+			"picture" : "",
+			"age" : "21 years old",
+			"nationality" : "French nationality",
+			"address" : "Villeurbanne, France ",
+			"phone" : "+33 7 81 64 03 47",
+			"email" : "matmont98@gmail.com",
+			"mobility" : "Intenational mobility",
+			"personnal_website" : "mathieu-montgomery.ovh"
+		},
+		"small_components" : [
+			{
+				"title" : "Languages",
+				"content" : "",
+				"array" : [
+					"French : mother tongue",
+					"English : fluent (TOEIC: 935/990, several trips to UK, English father)",
+					"German : working knowledge",
+					"Chinese : notions (beginner)"
+				]
+			},
+			{
+				"title" : "Qualities",
+				"content" : "",
+				"list" : ["Rigueur", "Esprit d'équipe ", "Curiosité", "Leadership", "Créativité"]
+
+			},
+			{
+				"title" : "Hobbies",
+				"content" : "Theatre  (TTI INSA society), sport, reading, DIY"
+			}
+		],
+		"big_components" : [
+			{
+				"title" : "Education",
+				"icon" : "fas fa-graduation-cap",
+				"elements" : [
+					{
+						"date_begin" : "2018",
+						"date_end" : "Today",
+						"text" : "Computer Science engineering diploma, INSA de Lyon Graduate School, Lyon, France (4rd year, Bachelor's level)"
+					},
+					{
+						"date_begin" : "2018",
+						"text" : "Erasmus semester in Denmark at the Via University in Horsens"
+					},
+					{
+						"date_begin" : "2016",
+						"date_end" : "2018",
+						"text" : "Technical Degree in computer science, IUT Illkirch, France"
+					},
+					{
+						"date_begin" : "2016",
+						"text" : "Scientific Baccalaureat (High School Diploma), Strasbourg, France"
+					}
+				]
+			},
+			{
+				"title" : "Work experience",
+				"icon" : "fas fa-briefcase",
+				"elements" : [
+					{
+						"date_begin" : "June 2019",
+						"date_end" : "August 2019",
+						"text" : "Internship at Axopen, participation in 4 different projects:",
+						"list" : [
+							"EADV 2019: designing web-slides (HTML/CSS/JS).",
+							"Bouyers: development of the settings page for a sound level measurement machine with the Angular framework.",
+							"Axopen's website: creation of pages for the official Axopen website in PHP/HTML/CSS (Wordpress).",
+							"Sport dans la ville (Sport in the town): creation of the registration/modification page for teenagers with the Angular framework."
+						]
+					},
+					{
+						"date_begin" : "July 2018 ",
+						"text" : "Summer job for the city of Strasbourg"
+					},
+					{
+						"date_begin" : "June 2018 ",
+						"text" : "Temporary work at JYSK, Horsens, Denmark"
+					},
+					{
+						"date_begin" : "2017",
+						"text" : "Delivery of the municipal news bulletin for Vendenheim town hall"
+					}
+				]
+			},
+			{
+				"title" : "Softwares Languages / Frameworks",
+				"icon" : "fas fa-laptop-code",
+				"elements" : [
+					{
+						"date_begin" : "Mastered",
+						"text" : "C#, Java, Python, HTML, CSS, JavaScript, MySql, Materialize (CSS), Bootstrap (CSS), Laravel (PHP), Angular (JS), Adobe Premier Pro, office suite Word"
+					},
+					{
+						"date_begin" : "Known",
+						"text" : "PL/SQL, C, NodeJs, ReactJs, NextJs, Adobe Photoshop, Blender, Unity "
+					},
+					{
+						"date_begin" : "Notions",
+						"text" : "SAS, Langage Shell (unix), assembleur"
+					}
+				]
+			},
+			{
+				"title" : "Projects",
+				"icon" : "fas fa-users",
+				"elements" : [
+					{
+						"date_begin" : "2019",
+						"date_end" : "2020",
+						"text" : "Secretary of the INSAlgo society for algorithms."
+					},
+					{
+						"date_begin" : "2017",
+						"date_end" : "Présent",
+						"text" : "Participation in development competitions (the Shaker, the Battle Dev)"
+					},
+					{
+						"date_begin" : "2016",
+						"date_end" : "Présent",
+						"text" : "Participation in several hackathons (“hacking industry camp”, “the night of the info”,”24h of the IUT”)"
+					},
+					{
+						"date_begin" : "2016",
+						"date_end" : "",
+						"text" : "Creation of my personnal website : www.mathieu-montgomery.ovh (french)"
+					},
+					{
+						"date_begin" : "2016",
+						"date_end" : "2018",
+						"text" : "Volunteer in the video editing team for the amateur full length movie “Edhalion” (medieval fantastic movie) produced by Trustwonder."
+					},
+					{
+						"date_begin" : "2013",
+						"date_end" : "2017",
+						"text" : "Volunteer in the organisation team of the annual theque competition  (French baseball) in Brumath, Alsace, welcoming more than 400 young participants (6yrs - 20yrs) over a weekend."
+					}
+				]
+			}
+		]
+	}
+}
