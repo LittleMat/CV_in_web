@@ -3,6 +3,8 @@
 // --------------------------------------------------------------
 
 $color_date:#595959;
+$color_dark_text:#000;
+$color_white_text:#fff;
 $color_main: #4e377a;
 
 $theme-colors: (
@@ -72,20 +74,28 @@ h1 {
 
 .name {
 	font-family: 'Roboto-Bold';
-	letter-spacing: 0.2mm;
+	letter-spacing: 0.12mm;
 	font-size: 9.5mm;
 	line-height: 9mm;
+	color: $color_white_text;
 }
 
 .small_info {
 	font-family: 'Roboto-Light';
-	letter-spacing: 0.1mm;
 	font-size: $size_text;
 	line-height: 5mm;
+	color: $color_white_text;
 }
 
 .small_info_space {
-	margin-top: 8mm;
+	margin-top: 5mm;
+}
+
+#profil_picture {
+	margin-top:3mm;
+	width:90%;
+	height: auto;
+	border-radius: 1mm;
 }
 
 // --------------------------------------------------------------
@@ -94,11 +104,13 @@ h1 {
 
 .small_component_holder{ 
 	margin-top: $space_small;
+	color: $color_white_text;
 } 
 
 .small_c_title{
 	font-family: $font_title;
 	text-transform: uppercase; 
+	color: $color_white_text;
 } 
 
 .small_c_content, .small_c_array, .small_c_list{
@@ -144,6 +156,11 @@ h1 {
 	font-family: $font_text;
 	font-size: $size_text;
 	line-height: $line_height_text;
+	color: $color_dark_text;
+}
+
+.icon_big_c{
+	margin-right: 2mm;
 }
 // --------------------------------------------------------------
 //						Objectif
@@ -159,6 +176,7 @@ h1 {
 .objectif_text {
 	font-family: $font_text;
 	font-size: 5mm;
+	color: $color_dark_text;
 }
 
 // --------------------------------------------------------------

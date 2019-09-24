@@ -6,6 +6,11 @@ import SmallComponentPattern from './patterns/small_component.pattern.js';
 import BigComponentPattern from './patterns/big_component.pattern.js';
 import ObjectifPattern from './patterns/objectif.pattern.js';
 
+import '@fortawesome/fontawesome-free/js/fontawesome'
+import '@fortawesome/fontawesome-free/js/solid'
+import '@fortawesome/fontawesome-free/js/regular'
+import '@fortawesome/fontawesome-free/js/brands'
+
 require('../dist/index.html')
 const cv_json = require('../cv_french.json')
 

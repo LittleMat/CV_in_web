@@ -11,6 +11,7 @@
     "roboto-fontface": "^0.10.0"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.1",
     "autoprefixer": "^9.6.1",
     "css-loader": "^3.2.0",
     "file-loader": "^4.2.0",

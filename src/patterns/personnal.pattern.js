@@ -1,3 +1,5 @@
+import ProfilPicture from '../../assets/profil_image.jpg';
+
 export default class PersonnalPattern {
 	constructor(last_name, first_name, picture, age, nationality, address, phone, email, mobility, personnal_website) {
 		this.last_name = last_name;
@@ -10,11 +12,14 @@ export default class PersonnalPattern {
 		this.email = email;
 		this.mobility = mobility;
 		this.personnal_website = personnal_website;
+		console.log(ProfilPicture);
 	}
 
 	getHtml() {
 		return `<div id="first_name" class="name">${this.first_name}</div>
 				<div id="last_name" class="name">${this.last_name}</div>
+
+				<img src="${ProfilPicture}" alt="profil_picture" id="profil_picture"/>
 
 				<div id="age" class="small_info small_info_space">${this.age}</div> 
 				<div id="nationality" class="small_info">${this.nationality}</div>

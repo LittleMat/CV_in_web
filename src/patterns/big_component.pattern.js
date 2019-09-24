@@ -29,8 +29,9 @@ export default class BigComponentPattern {
 	}
 
 	getHtml() {
+		let icon = this.icon ? `<i class="${this.icon} icon_big_c"></i>` : ''
 		return `<div class='big_component_holder'>
-					<div class="big_c_title">${this.title}</div>
+					<div class="big_c_title">${icon}${this.title}</div>
 					<div class="big_c_elements_holder">${this.elements ? this.elements : ''}</div> 
 				</div>`
 	}

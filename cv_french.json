@@ -41,7 +41,7 @@
 		"big_components" : [
 			{
 				"title" : "Formation",
-				"icon" : "",
+				"icon" : "fas fa-graduation-cap",
 				"elements" : [
 					{
 						"date_begin" : "2018",
@@ -65,7 +65,7 @@
 			},
 			{
 				"title" : "Expérience professionnelle",
-				"icon" : "",
+				"icon" : "fas fa-briefcase",
 				"elements" : [
 					{
 						"date_begin" : "Juin 2019",
@@ -94,7 +94,7 @@
 			},
 			{
 				"title" : "Langages/Framework/Logiciels",
-				"icon" : "",
+				"icon" : "fas fa-laptop-code",
 				"elements" : [
 					{
 						"date_begin" : "Maîtrisé",
@@ -112,7 +112,7 @@
 			},
 			{
 				"title" : "Projets",
-				"icon" : "",
+				"icon" : "fas fa-users",
 				"elements" : [
 					{
 						"date_begin" : "2019",
