@@ -2,7 +2,7 @@
 	"CV" : {
 		"objectif" : { 
 			"title" : "Objectif",
-			"text" : "Stage en informatique de 3,5 mois"
+			"text" : "<b>Stage de 3,5 mois</b> dans le développement d'applications (<b>back-end</b>), la <b>sécurité</b> informatique, la conception/déploiement/administration/migration de <b>base de données</b>."
 		},
 		"personnal" : {
 			"last_name" : "Montgomery",
@@ -21,21 +21,21 @@
 				"title" : "Langues",
 				"content" : "",
 				"array" : [
-					"Français : bilingue  (langue natale)",
-					"Anglais : bilingue  (TOEIC: 935/990, père anglais)",
+					"<b>Français</b> : bilingue  (langue maternelle)",
+					"<b>Anglais</b> : <b>bilingue</b>  (TOEIC: 935/990, père anglais)",
 					"Allemand : niveau moyen",
-					"Mandarin : notions (débutant)"
+					"<b>Mandarin</b> : notions (débutant)"
 				]
 			},
 			{
 				"title" : "Qualités",
 				"content" : "",
-				"list" : ["Rigueur", "Esprit d'équipe ", "Curiosité", "Leadership", "Créativité"]
+				"list" : ["Rigueur", "Esprit d'équipe ", "Leadership", "Curiosité"]
 
 			},
 			{
 				"title" : "Activités / Hobby",
-				"content" : "Théâtre  (association TTI INSA), sport, lecture, bricolage"
+				"content" : "<b>Théâtre</b>  (association TTI INSA), sport, lecture, bricolage"
 			}
 		],
 		"big_components" : [
@@ -46,20 +46,20 @@
 					{
 						"date_begin" : "2018",
 						"date_end" : "Présent",
-						"text" : "INSA Lyon Informatique, actuellement en 4ème année"
+						"text" : "<b>INSA Lyon Informatique, actuellement en 4ème année</b>"
 					},
 					{
 						"date_begin" : "2018",
-						"text" : "Semestre en ERASMUS  au  Danemark à Horsens, Via University"
+						"text" : "<b>Semestre en ERASMUS</b>  au  <b>Danemark</b> à Horsens, Via University"
 					},
 					{
 						"date_begin" : "2016",
 						"date_end" : "2018",
-						"text" : "DUT Informatique à Illkirch (67) "
+						"text" : "<b>DUT Informatique</b> à Illkirch (67) "
 					},
 					{
 						"date_begin" : "2016",
-						"text" : "Bac S  mention très bien  à Strasbourg (67)"
+						"text" : "Bac S  <b>mention très bien</b> à Strasbourg (67)"
 					}
 				]
 			},
@@ -70,12 +70,12 @@
 					{
 						"date_begin" : "Juin 2019",
 						"date_end" : "Août 2019",
-						"text" : "Stage  chez  Axopen , participation à  4 projets  différents :",
+						"text" : "<b>Stage</b>  chez  Axopen , participation à  <b>4 projets  différents</b> :",
 						"list" : [
-							"EADV 2019 : réalisation de slide en web ( HTML/CSS/JS ).",
-							"Bouyers : réalisation de la page de paramétrage en  Angular  d’un outil de mesure du niveau sonore d’une salle.",
-							"Site web d’Axopen : création de pages pour le site internet d’Axopen en PHP/HTML/CSS  (Wordpress).",
-							"Sport dans la ville : création de la page de modification/ inscription des jeunes de l’association en  Angular."
+							"EADV 2019 : réalisation de slide en web <b>(HTML/CSS/JS )</b>.",
+							"Bouyers : réalisation de la page de paramétrage en <b>Angular</b> d’un outil de mesure du niveau sonore d’une salle.",
+							"Site web d’Axopen : création de pages pour le site internet d’Axopen en <b>PHP/HTML/CSS</b>  (Wordpress).",
+							"Sport dans la ville : création de la page de modification/ inscription des jeunes de l’association en <b>Angular</b>."
 						]
 					},
 					{
@@ -84,7 +84,7 @@
 					},
 					{
 						"date_begin" : "Juin 2018 ",
-						"text" : "Travail en intérim  chez JYSK (manutention)"
+						"text" : "<b>Travail en intérim</b> chez JYSK (manutention)"
 					},
 					{
 						"date_begin" : "2017",
@@ -97,12 +97,12 @@
 				"icon" : "fas fa-laptop-code",
 				"elements" : [
 					{
-						"date_begin" : "Maîtrisé",
-						"text" : "C#, Java, Python, HTML, CSS, JavaScript, MySql, Materialize (CSS), Bootstrap (CSS), Laravel (PHP), Angular (JS), Adobe Premier Pro, suite bureautique Word"
+						"date_begin" : "Maîtrisés",
+						"text" : "<b>C#</b>, Java, <b>Python</b>, HTML, CSS, <b>JavaScript</b>, <b>MySql</b>, Materialize (CSS), <b>Bootstrap</b> (CSS), <b>Angular</b> (JS), Adobe Premier Pro, suite bureautique Word"
 					},
 					{
 						"date_begin" : "Familiers",
-						"text" : "PL/SQL, C, NodeJs, ReactJs, NextJs, Adobe Photoshop, Blender, Unity "
+						"text" : "PL/SQL, <b>C</b>, <b>NodeJs, ReactJs, NextJs</b>, Adobe Photoshop, Blender, Unity, Laravel (PHP)"
 					},
 					{
 						"date_begin" : "Notions",
@@ -117,32 +117,32 @@
 					{
 						"date_begin" : "2019",
 						"date_end" : "2020",
-						"text" : "Secrétaire de l’association d'algorithme INSAlgo (association pour s’améliorer en algorithmie)"
+						"text" : "<b>Secrétaire</b> de <b>l’association d'algorithme INSAlgo</b> (association pour s’améliorer en algorithmie)"
 					},
 					{
 						"date_begin" : "2017",
 						"date_end" : "Présent",
-						"text" : "Compétitions de développement: Shaker, Battle Dev"
+						"text" : "<b>Compétitions de développement</b>: Shaker, Battle Dev"
 					},
 					{
 						"date_begin" : "2016",
 						"date_end" : "Présent",
-						"text" : "Hackathons : hacking industry camp, la nuit de l’info, 24h des IUT"
+						"text" : "<b>Hackathons</b> : hacking industry camp, la nuit de l’info, 24h des IUT"
 					},
 					{
 						"date_begin" : "2016",
 						"date_end" : "",
-						"text" : "Création site web personnel : www.mathieu-montgomery.ovh"
+						"text" : "Création <b>site web personnel</b> : www.mathieu-montgomery.ovh"
 					},
 					{
 						"date_begin" : "2016",
 						"date_end" : "2018",
-						"text" : "Bénévole dans l’équipe de montage du long métrage Edhalion"
+						"text" : "Bénévole dans <b>l’équipe de montage</b> du <b>long métrage</b> Edhalion"
 					},
 					{
 						"date_begin" : "2013",
 						"date_end" : "2017",
-						"text" : "Bénévole dans l'équipe d'organisation d’un tournoi annuel de sport (Jeu de thèque, 400 participants)"
+						"text" : "Bénévole dans <b>l'équipe d'organisation</b> d’un tournoi annuel de sport (Jeu de thèque, 400 participants)"
 					}
 				]
 			}

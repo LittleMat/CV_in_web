@@ -2,18 +2,17 @@
 	"CV" : {
 		"objectif" : { 
 			"title" : "Objective",
-			"text" : "Stage en informatique de 3,5 mois"
+			"text" : "<b>Summer internship</b> (<b>3.5 months</b>) in applications development (<b>back-end</b>), <b>security</b>, design/deployment/administration/migration of <b>databases</b>."
 		},
 		"personnal" : {
 			"last_name" : "Montgomery",
 			"first_name" : "Mathieu ",
 			"picture" : "",
-			"age" : "21 years old",
-			"nationality" : "French nationality",
+			"age" : "01-05-1998 (21 years)",
+			"nationality" : "Nationality: French",
 			"address" : "Villeurbanne, France ",
 			"phone" : "+33 7 81 64 03 47",
 			"email" : "matmont98@gmail.com",
-			"mobility" : "Intenational mobility",
 			"personnal_website" : "mathieu-montgomery.ovh"
 		},
 		"small_components" : [
@@ -21,21 +20,21 @@
 				"title" : "Languages",
 				"content" : "",
 				"array" : [
-					"French : mother tongue",
-					"English : fluent (TOEIC: 935/990, several trips to UK, English father)",
-					"German : working knowledge",
-					"Chinese : notions (beginner)"
+					"<b>French</b>: mother tongue",
+					"<b>English</b>: fluent (TOEIC: 935/990, several trips to UK, English father)",
+					"German: working knowledge",
+					"<b>Chinese</b>: notions (beginner)"
 				]
 			},
 			{
 				"title" : "Qualities",
 				"content" : "",
-				"list" : ["Rigueur", "Esprit d'équipe ", "Curiosité", "Leadership", "Créativité"]
+				"list" : ["Rigorousness", "Teamwork", "Leadership", "Curiosity"]
 
 			},
 			{
 				"title" : "Hobbies",
-				"content" : "Theatre  (TTI INSA society), sport, reading, DIY"
+				"content" : "<b>Theatre</b> (member of the INSA theatrical association), sport, reading, DIY"
 			}
 		],
 		"big_components" : [
@@ -46,16 +45,16 @@
 					{
 						"date_begin" : "2018",
 						"date_end" : "Today",
-						"text" : "Computer Science engineering diploma, INSA de Lyon Graduate School, Lyon, France (4rd year, Bachelor's level)"
+						"text" : "<b>Computer Science engineering diploma</b>, <b>INSA de Lyon</b> Graduate School, Lyon, France (<b>4th year</b>, Master's level)"
 					},
 					{
 						"date_begin" : "2018",
-						"text" : "Erasmus semester in Denmark at the Via University in Horsens"
+						"text" : "<b>Erasmus semester in Denmark</b> at the Via University in Horsens"
 					},
 					{
 						"date_begin" : "2016",
 						"date_end" : "2018",
-						"text" : "Technical Degree in computer science, IUT Illkirch, France"
+						"text" : "<b>Technical Degree in computer science</b>, IUT Illkirch, France"
 					},
 					{
 						"date_begin" : "2016",
@@ -70,25 +69,25 @@
 					{
 						"date_begin" : "June 2019",
 						"date_end" : "August 2019",
-						"text" : "Internship at Axopen, participation in 4 different projects:",
+						"text" : "<b>Internship</b> at Axopen, participation in <b>4 different projects</b>:",
 						"list" : [
-							"EADV 2019: designing web-slides (HTML/CSS/JS).",
-							"Bouyers: development of the settings page for a sound level measurement machine with the Angular framework.",
-							"Axopen's website: creation of pages for the official Axopen website in PHP/HTML/CSS (Wordpress).",
-							"Sport dans la ville (Sport in the town): creation of the registration/modification page for teenagers with the Angular framework."
+							"EADV 2019: designing web-slides <b>(HTML/CSS/JS)</b>.",
+							"Bouyers: development of the settings page for a sound level measurement machine with the <b>Angular</b> framework.",
+							"Axopen's website: creation of pages for the official Axopen website in <b>PHP/HTML/CSS</b> (Wordpress).",
+							"Sport dans la ville (Sport in the town): creation of the registration/modification page for teenagers with the <b>Angular</b> framework."
 						]
 					},
 					{
 						"date_begin" : "July 2018 ",
-						"text" : "Summer job for the city of Strasbourg"
+						"text" : "<b>Summer job</b> for the city of Strasbourg"
 					},
 					{
 						"date_begin" : "June 2018 ",
-						"text" : "Temporary work at JYSK, Horsens, Denmark"
+						"text" : "<b>Temporary work</b> at JYSK, Horsens, Denmark"
 					},
 					{
 						"date_begin" : "2017",
-						"text" : "Delivery of the municipal news bulletin for Vendenheim town hall"
+						"text" : "Delivery of the municipal news bulletin for a town hall"
 					}
 				]
 			},
@@ -98,15 +97,15 @@
 				"elements" : [
 					{
 						"date_begin" : "Mastered",
-						"text" : "C#, Java, Python, HTML, CSS, JavaScript, MySql, Materialize (CSS), Bootstrap (CSS), Laravel (PHP), Angular (JS), Adobe Premier Pro, office suite Word"
+						"text" : "<b>C#</b>, Java, <b>Python</b>, HTML, CSS, <b>JavaScript</b>, <b>MySql</b>, Materialize (CSS), <b>Bootstrap</b> (CSS), <b>Angular</b> (JS), Adobe Premier Pro, Word office suite"
 					},
 					{
-						"date_begin" : "Known",
-						"text" : "PL/SQL, C, NodeJs, ReactJs, NextJs, Adobe Photoshop, Blender, Unity "
+						"date_begin" : "Familiar",
+						"text" : "PL/SQL, <b>C</b>, <b>NodeJs, ReactJs, NextJs</b>, Adobe Photoshop, Blender, Unity, Laravel (PHP)"
 					},
 					{
 						"date_begin" : "Notions",
-						"text" : "SAS, Langage Shell (unix), assembleur"
+						"text" : "SAS, Shell (unix), assembly language"
 					}
 				]
 			},
@@ -117,32 +116,32 @@
 					{
 						"date_begin" : "2019",
 						"date_end" : "2020",
-						"text" : "Secretary of the INSAlgo society for algorithms."
+						"text" : "<b>Secretary</b> of the algorithms <b>INSAlgo association</b>"
 					},
 					{
 						"date_begin" : "2017",
-						"date_end" : "Présent",
-						"text" : "Participation in development competitions (the Shaker, the Battle Dev)"
+						"date_end" : "Present",
+						"text" : "<b>Development competitions</b> (the Shaker, the Battle Dev)"
 					},
 					{
 						"date_begin" : "2016",
-						"date_end" : "Présent",
-						"text" : "Participation in several hackathons (“hacking industry camp”, “the night of the info”,”24h of the IUT”)"
+						"date_end" : "Present",
+						"text" : "<b>Hackathons</b> (“hacking industry camp”, “the night of the info”,”24h of the IUT”)"
 					},
 					{
 						"date_begin" : "2016",
 						"date_end" : "",
-						"text" : "Creation of my personnal website : www.mathieu-montgomery.ovh (french)"
+						"text" : "<b>Personnal website</b>: www.mathieu-montgomery.ovh (french)"
 					},
 					{
 						"date_begin" : "2016",
 						"date_end" : "2018",
-						"text" : "Volunteer in the video editing team for the amateur full length movie “Edhalion” (medieval fantastic movie) produced by Trustwonder."
+						"text" : "<b>Volunteer</b> in the <b>video editing team</b> for the amateur full length movie Edhalion"
 					},
 					{
 						"date_begin" : "2013",
 						"date_end" : "2017",
-						"text" : "Volunteer in the organisation team of the annual theque competition  (French baseball) in Brumath, Alsace, welcoming more than 400 young participants (6yrs - 20yrs) over a weekend."
+						"text" : "<b>Volunteer</b> in the <b>organisation team</b> of the annual theque competition (French baseball, 400 young participants)"
 					}
 				]
 			}

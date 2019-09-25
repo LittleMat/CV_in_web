@@ -2,6 +2,9 @@
 //				         Variables
 // --------------------------------------------------------------
 
+$page_width: 210mm !important;
+$page_height: 297mm !important;
+
 $color_date:#595959;
 $color_dark_text:#000;
 $color_white_text:#fff;
@@ -11,9 +14,10 @@ $theme-colors: (
   "primary": $color_main, 
 );
 
-$part_1_width: 31%;
+$part_1_width: 230px;
+$part_2_width: 793.7px - $part_1_width;
 $space_small: 10mm;
-$space_big: 8mm;
+$space_big: 7mm;
 $padding_left_panel:5mm;
 $padding_right_panel:5mm;
 
@@ -29,9 +33,14 @@ $size_date: 3.7mm;
 //				    Stuff for printing the page
 // --------------------------------------------------------------
 
-@page { size: auto;  margin: 0mm; padding: 0mm;}
+
 @media print {
 	body {-webkit-print-color-adjust: exact;}
+	@page { 
+		size: $page_height $page_width;  
+		margin: 0mm; 
+		padding: 0mm;
+	}
 }
 
 // --------------------------------------------------------------
@@ -40,27 +49,24 @@ $size_date: 3.7mm;
 
 .part_1{
 	width: $part_1_width;
-	padding: $padding_left_panel 0 $padding_left_panel $padding_left_panel;
+	padding: $padding_left_panel 1mm $padding_left_panel $padding_left_panel;
 	@extend .h-100;
 }
 
 .part_2{
-	width: 100 - $part_1_width;
+	width: $part_2_width;
 	padding:$padding_right_panel;
 	@extend .h-100;
 }
 
 body { 
 	//box-sizing: border-box;
-	border-bottom: 1px solid black;
-	border-right: 1px solid black;
+	//border-bottom: 1px solid black;
+	//border-right: 1px solid black;
 
-	height: 297mm ; 
-	width:210mm; 
+	height: $page_height ; 
+	width:$page_width; 
 	margin:0; 
-	top: 0px;
-	left: 0px;
-	position: absolute;
 }
 
 h1 {
@@ -75,7 +81,7 @@ h1 {
 .name {
 	font-family: 'Roboto-Bold';
 	letter-spacing: 0.12mm;
-	font-size: 9.5mm;
+	font-size: 9mm;
 	line-height: 9mm;
 	color: $color_white_text;
 }
@@ -175,8 +181,9 @@ h1 {
 
 .objectif_text {
 	font-family: $font_text;
-	font-size: 5mm;
+	font-size: 4mm;
 	color: $color_dark_text;
+	line-height: 5mm;
 }
 
 // --------------------------------------------------------------

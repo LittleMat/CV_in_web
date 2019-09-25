@@ -10,7 +10,7 @@ export default class PersonnalPattern {
 		this.address = address;
 		this.phone = phone;
 		this.email = email;
-		this.mobility = mobility;
+		this.mobility = mobility ? mobility : '';
 		this.personnal_website = personnal_website;
 		console.log(ProfilPicture);
 	}
