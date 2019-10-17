@@ -112,7 +112,7 @@
 			{
 				"title" : "Projects",
 				"icon" : "fas fa-users",
-				"elements" : [
+				"elements" : [ 
 					{
 						"date_begin" : "2019",
 						"date_end" : "2020",
