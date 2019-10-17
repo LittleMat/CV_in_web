@@ -18,7 +18,7 @@ $part_1_width: 230px;
 $part_2_width: 793.7px - $part_1_width;
 $space_small: 10mm;
 $space_big: 7mm;
-$padding_left_panel:5mm;
+$padding_left_panel:7mm;
 $padding_right_panel:5mm;
 
 $date_width: 21%;
@@ -80,8 +80,8 @@ h1 {
 
 .name {
 	font-family: 'Roboto-Bold';
-	letter-spacing: 0.12mm;
-	font-size: 9mm;
+	letter-spacing: 0.10mm;
+	font-size: 8.5mm;
 	line-height: 9mm;
 	color: $color_white_text;
 }

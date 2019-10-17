@@ -34,7 +34,7 @@
 			},
 			{
 				"title" : "Hobbies",
-				"content" : "<b>Theatre</b> (member of the INSA theatrical association), sport, reading, DIY"
+				"content" : "Sport, video games, reading, DIY"
 			}
 		],
 		"big_components" : [
@@ -45,7 +45,7 @@
 					{
 						"date_begin" : "2018",
 						"date_end" : "Today",
-						"text" : "<b>Computer Science engineering diploma</b>, <b>INSA de Lyon</b> Graduate School, Lyon, France (<b>4th year</b>, Master's level)"
+						"text" : "<b>Computer Science engineering diploma</b>, <b>INSA de Lyon</b> Graduate School, Lyon, France (<b>4th year, Master's level</b>)"
 					},
 					{
 						"date_begin" : "2018",
@@ -116,7 +116,7 @@
 					{
 						"date_begin" : "2019",
 						"date_end" : "2020",
-						"text" : "<b>Secretary</b> of the algorithms <b>INSAlgo association</b>"
+						"text" : "<b>Secretary</b> of the algorithms <b>INSAlgo association</b> (organisation of algorithm contest like Le Shaker)"
 					},
 					{
 						"date_begin" : "2017",
