@@ -2,7 +2,7 @@
 	"CV" : {
 		"objectif" : { 
 			"title" : "Objective",
-			"text" : "<b>Summer internship</b> (<b>3.5 months</b>) in applications development (<b>back-end</b>), <b>security</b>, design/deployment/administration/migration of <b>databases</b>."
+			"text" : "<b>Summer internship</b> (<b>3.5 months</b>) in applications development (<b>back-end</b>), design/deployment/administration/migration of <b>databases</b> and security."
 		},
 		"personnal" : {
 			"last_name" : "Montgomery",
@@ -71,10 +71,10 @@
 						"date_end" : "August 2019",
 						"text" : "<b>Internship</b> at Axopen, participation in <b>4 different projects</b>:",
 						"list" : [
-							"EADV 2019: designing web-slides <b>(HTML/CSS/JS)</b>.",
+							"EADV 2019: designing web-slides (HTML/CSS/JS).",
 							"Bouyers: development of the settings page for a sound level measurement machine with the <b>Angular</b> framework.",
-							"Axopen's website: creation of pages for the official Axopen website in <b>PHP/HTML/CSS</b> (Wordpress).",
-							"Sport dans la ville (Sport in the town): creation of the registration/modification page for teenagers with the <b>Angular</b> framework."
+							"Axopen's website: creation of pages for the official Axopen website in PHP/HTML/CSS (Wordpress).",
+							"Sport dans la ville (Sport in the town): creation of the registration/modification page for teenagers with the <b>Angular</b> framework using a <b>REST API</b>."
 						]
 					},
 					{
@@ -84,10 +84,6 @@
 					{
 						"date_begin" : "June 2018 ",
 						"text" : "<b>Temporary work</b> at JYSK, Horsens, Denmark"
-					},
-					{
-						"date_begin" : "2017",
-						"text" : "Delivery of the municipal news bulletin for a town hall"
 					}
 				]
 			},
@@ -97,11 +93,11 @@
 				"elements" : [
 					{
 						"date_begin" : "Mastered",
-						"text" : "<b>C#</b>, Java, <b>Python</b>, HTML, CSS, <b>JavaScript</b>, <b>MySql</b>, Materialize (CSS), <b>Bootstrap</b> (CSS), <b>Angular</b> (JS), Adobe Premier Pro, Word office suite"
+						"text" : "<b>Python</b>, <b>C#</b>, <b>C++</b>, Java, HTML, CSS, JavaScript<, <b>MySql</b>, <b>PL/SQL</b>, Materialize (CSS), Bootstrap (CSS), Angular (JS), Adobe Premier Pro, Word office suite"
 					},
 					{
 						"date_begin" : "Familiar",
-						"text" : "PL/SQL, <b>C</b>, <b>NodeJs, ReactJs, NextJs</b>, Adobe Photoshop, Blender, Unity, Laravel (PHP)"
+						"text" : "<b>C</b>, NodeJs, ReactJs, NextJs, Adobe Photoshop, Blender, Unity, Laravel (PHP), <b>SPARQL</b>"
 					},
 					{
 						"date_begin" : "Notions",
@@ -116,12 +112,16 @@
 					{
 						"date_begin" : "2019",
 						"date_end" : "2020",
-						"text" : "<b>General secretary</b> of the algorithms <b>INSAlgo association</b> (organisation of algorithm contest like Le Shaker)"
+						"text" : "<b>General secretary</b> of the algorithms <b>INSAlgo association</b> (organisation of algorithm contests like Le Shaker)"
 					}, 
+					{
+						"date_begin" : "2018",
+						"text" : "<b>Dimensional modeling</b> (for a University project): creation of the tables and processes that filtered/transformed/transferred data from a normal database into a <b>dimensional database</b>"
+					},
 					{
 						"date_begin" : "2017",
 						"date_end" : "Present",
-						"text" : "<b>Development competitions</b> (the Shaker, the Battle Dev)"
+						"text" : "Development competitions (the Shaker, the Battle Dev)"
 					},
 					{
 						"date_begin" : "2016",
@@ -130,18 +130,13 @@
 					},
 					{
 						"date_begin" : "2016",
-						"date_end" : "",
-						"text" : "<b>Personnal website</b>: www.mathieu-montgomery.ovh (french)"
-					},
-					{
-						"date_begin" : "2016",
 						"date_end" : "2018",
-						"text" : "<b>Volunteer</b> in the <b>video editing team</b> for the amateur full length movie Edhalion"
+						"text" : "Volunteer in the video editing team for the amateur full length movie Edhalion"
 					},
 					{
 						"date_begin" : "2013",
 						"date_end" : "2017",
-						"text" : "<b>Volunteer</b> in the <b>organisation team</b> of the annual theque competition (French baseball, 400 young participants)"
+						"text" : "Volunteer in the <b>organisation team</b> of the annual theque competition (French baseball, 400 young participants)"
 					}
 				]
 			}
