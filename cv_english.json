@@ -2,7 +2,7 @@
 	"CV" : {
 		"objectif" : { 
 			"title" : "Objective",
-			"text" : "<b>Summer internship</b> (<b>3.5 months</b>) in applications development (<b>back-end</b>), <b>security</b>, design/deployment/administration/migration of <b>databases</b>."
+			"text" : "<b>Summer internship</b> (<b>3.5 months</b>) in application development (<b>back-end</b>), <b>security</b>, design/deployment/administration/migration of <b>databases</b>."
 		},
 		"personnal" : {
 			"last_name" : "Montgomery",
@@ -97,11 +97,11 @@
 				"elements" : [
 					{
 						"date_begin" : "Mastered",
-						"text" : "<b>C#</b>, Java, <b>Python</b>, HTML, CSS, <b>JavaScript</b>, <b>MySql</b>, Materialize (CSS), <b>Bootstrap</b> (CSS), <b>Angular</b> (JS), Adobe Premier Pro, Word office suite"
+						"text" : "<b>C# , Java, Python</b>, HTML, CSS, <b>JavaScript</b>, <b>MySql</b>, Materialize (CSS), Bootstrap (CSS), Angular (JS), Adobe Premier Pro, Word office suite"
 					},
 					{
 						"date_begin" : "Familiar",
-						"text" : "PL/SQL, <b>C</b>, <b>NodeJs, ReactJs, NextJs</b>, Adobe Photoshop, Blender, Unity, Laravel (PHP)"
+						"text" : "<b>PL/SQL, C</b>, NodeJs, ReactJs, NextJs, Adobe Photoshop, Blender, Unity, Laravel (PHP)"
 					},
 					{
 						"date_begin" : "Notions",
