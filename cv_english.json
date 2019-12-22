@@ -2,7 +2,7 @@
 	"CV" : {
 		"objectif" : { 
 			"title" : "Objective",
-			"text" : "<b>Summer internship</b> (<b>3.5 months</b>) in application development (<b>back-end</b>), <b>security</b>, design/deployment/administration/migration of <b>databases</b>."
+			"text" : "<b>Summer internship</b> (<b>3.5 months</b>) in <b>software engineering</b> and/or business intelligence."
 		},
 		"personnal" : {
 			"last_name" : "Montgomery",
@@ -34,7 +34,7 @@
 			},
 			{
 				"title" : "Hobbies",
-				"content" : "Sport, video games, reading, DIY"
+				"content" : "Sport, DIY, reading, video games"
 			}
 		],
 		"big_components" : [
@@ -101,11 +101,11 @@
 					},
 					{
 						"date_begin" : "Familiar",
-						"text" : "<b>PL/SQL, C</b>, NodeJs, ReactJs, NextJs, Adobe Photoshop, Blender, Unity, Laravel (PHP)"
+						"text" : "<b>PL/SQL, C, Shell (unix)</b>, NodeJs, ReactJs, NextJs, Adobe Photoshop, Blender, Unity, Laravel (PHP)"
 					},
 					{
 						"date_begin" : "Notions",
-						"text" : "SAS, Shell (unix), assembly language"
+						"text" : "SAS,  assembly language"
 					}
 				]
 			},
@@ -116,7 +116,7 @@
 					{
 						"date_begin" : "2019",
 						"date_end" : "2020",
-						"text" : "<b>General secretary</b> of the algorithms <b>INSAlgo association</b> (organisation of algorithm contest like Le Shaker)"
+						"text" : "<b>General secretary</b> of the algorithms <b>INSAlgo association</b> (<b>organisation of algorithm contest</b> like Le Shaker)"
 					}, 
 					{
 						"date_begin" : "2017",
@@ -126,7 +126,7 @@
 					{
 						"date_begin" : "2016",
 						"date_end" : "Present",
-						"text" : "<b>Hackathons</b> (“hacking industry camp”, “the night of the info”,”24h of the IUT”)"
+						"text" : "<b>Hackathons</b> (“hacking industry camp”, “the night of the info”, ”24h of the IUT”)"
 					},
 					{
 						"date_begin" : "2016",

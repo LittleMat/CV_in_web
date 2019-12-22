@@ -5,9 +5,11 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "chrome-headless-render-pdf": "^1.8.2",
     "jquery": "^3.4.1",
     "lodash": "^4.17.15",
     "popper.js": "^1.15.0",
+    "puppeteer": "^2.0.0",
     "roboto-fontface": "^0.10.0"
   },
   "devDependencies": {

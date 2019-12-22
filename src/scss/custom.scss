@@ -36,7 +36,8 @@ $size_date: 3.7mm;
 @media print {
 	body {-webkit-print-color-adjust: exact;}
 	@page { 
-		size: $page_height $page_width;  
+		zoom: 150%;
+		size: $page_width $page_height;
 		margin: 0mm; 
 		padding: 0mm;
 	}
@@ -62,7 +63,7 @@ body {
 	//box-sizing: border-box;
 	//border-bottom: 1px solid black;
 	//border-right: 1px solid black;
-
+	zoom: 212%;
 	height: $page_height ; 
 	width:$page_width; 
 	margin:0; 
