@@ -2,7 +2,7 @@
 	"CV" : {
 		"objectif" : { 
 			"title" : "Objective",
-			"text" : "<b>Summer internship</b> (<b>3.5 months</b>) in <b>software engineering</b> and/or business intelligence."
+			"text" : "<b>Summer internship</b> (<b>4 months</b>) in <b>software engineering (back-end)</b>."
 		},
 		"personnal" : {
 			"last_name" : "Montgomery",
@@ -34,7 +34,7 @@
 			},
 			{
 				"title" : "Hobbies",
-				"content" : "Sport, DIY, reading, video games"
+				"content" : "Lego, new technology, cars, music, sport, reading"
 			}
 		],
 		"big_components" : [

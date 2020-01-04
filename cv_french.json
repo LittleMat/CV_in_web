@@ -2,7 +2,7 @@
 	"CV" : {
 		"objectif" : { 
 			"title" : "Objectif",
-			"text" : "<b>Stage de 3,5 mois</b> dans le développement d'applications (<b>back-end</b>), la <b>sécurité</b> informatique, la conception/déploiement/administration/migration de <b>base de données</b>."
+			"text" : "<b>Stage de 4 mois</b> dans le développement d'applications (<b>back-end</b>)."
 		},
 		"personnal" : {
 			"last_name" : "Montgomery",
@@ -35,7 +35,7 @@
 			},
 			{
 				"title" : "Activités / Hobby",
-				"content" : "Sport, jeux-vidéos, lecture, bricolage"
+				"content" : "Lego, nouvelles technologies, automobile, sport, lecture"
 			}
 		],
 		"big_components" : [
