@@ -2,7 +2,7 @@
 	"CV" : {
 		"objectif" : { 
 			"title" : "Objective",
-			"text" : "<b>Summer internship</b> (<b>3 and a half months</b>) in <b>software engineering (back-end)</b>."
+			"text" : "<b>Summer internship</b> (<b>3 and a half months</b>) in <b>databases</b> and <b>back-end development</b>."
 		},
 		"personnal" : {
 			"last_name" : "Montgomery",
@@ -97,11 +97,11 @@
 				"elements" : [
 					{
 						"date_begin" : "Mastered",
-						"text" : "<b>C# , Java, Python</b>, HTML, CSS, <b>JavaScript</b>, <b>MySql</b>, Materialize (CSS), Bootstrap (CSS), Angular (JS), Adobe Premier Pro, Word office suite"
+						"text" : "<b>SQL, Python</b>, Java, HTML, CSS, JavaScript, Materialize (CSS), Bootstrap (CSS)"
 					},
 					{
 						"date_begin" : "Familiar",
-						"text" : "<b>PL/SQL, C, Shell (unix)</b>, NodeJs, ReactJs, NextJs, Adobe Photoshop, Blender, Unity, Laravel (PHP)"
+						"text" : "<b>PL/SQL, Shell (unix)</b>, C, C#, C++, <b>NodeJs, ReactJs, Angular (JS), VueJS, NextJs</b>, Adobe Photoshop, Blender, Unity, Laravel (PHP), Adobe Premier Pro, Word office suite"
 					},
 					{
 						"date_begin" : "Notions",
