@@ -8,7 +8,8 @@ $page_height: 297mm !important;
 $color_date:#595959;
 $color_dark_text:#000;
 $color_white_text:#fff;
-$color_main: #4e377a;
+$color_main: #262626;//#4e377a;
+$color_secondary: #6b6b6b ;//#4e377a;
 
 $theme-colors: (
   "primary": $color_main, 
@@ -84,6 +85,13 @@ h1 {
 	font-size: 8.5mm;
 	line-height: 9mm;
 	color: $color_white_text;
+}
+
+.my_title {
+	padding-top: 3mm;
+	font-family: 'Roboto-Bold'; 
+	font-size: 5mm;
+	line-height: 6mm;
 }
 
 .small_info {
@@ -167,6 +175,14 @@ h1 {
 
 .icon_big_c{
 	margin-right: 2mm;
+}
+
+.italique{
+	font-style: italic;
+}
+.smaller_item{
+	font-size: 3.35mm;
+	color:$color_secondary;
 }
 // --------------------------------------------------------------
 //						Objectif

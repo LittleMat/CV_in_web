@@ -5,11 +5,11 @@
 			"text" : "<b>Summer internship</b> (<b>3 and a half months</b>) in <b>databases</b> and <b>back-end development</b>."
 		},
 		"personnal" : {
-			"last_name" : "Montgomery",
-			"first_name" : "Mathieu ",
+			"name" : "Montgomery Mathieu",
+			"my_title" : "Computer Science Engineering Student",
 			"picture" : "",
-			"age" : "01-05-1998 (21 years)",
-			"nationality" : "Nationality: French",
+			"age" : "21 years",
+			"nationality" : "French",
 			"address" : "Villeurbanne, France ",
 			"phone" : "+33 7 81 64 03 47",
 			"email" : "matmont98@gmail.com",
@@ -19,10 +19,10 @@
 			{
 				"title" : "Languages",
 				"content" : "",
-				"array" : [
+				"list" : [
 					"<b>French</b>: mother tongue",
-					"<b>English</b>: fluent (TOEIC: 935/990, several trips to UK, English father)",
-					"German: working knowledge",
+					"<b>English</b>: fluent",
+					"German: conversational ",
 					"<b>Chinese</b>: notions (beginner)"
 				]
 			},
@@ -34,7 +34,7 @@
 			},
 			{
 				"title" : "Hobbies / Interests",
-				"content" : "New technology, LEGO, cars, music, sport, reading"
+				"list" : ["New technology", "LEGO", "Sim racing", "Music", "Sport", "Reading"]
 			}
 		],
 		"big_components" : [
@@ -45,7 +45,8 @@
 					{
 						"date_begin" : "2018",
 						"date_end" : "Today",
-						"text" : "<b>Computer Science engineering diploma</b>, <b>INSA de Lyon</b> Graduate School, Lyon, France (<b>4th year, Master's level</b>)"
+						"text" : "<b>Computer Science engineering diploma</b>, <b>INSA de Lyon</b> Graduate School, Lyon, France (<b>4th year, Master's level</b>)",
+						"rank" : "(Class rank: 16/100)"
 					},
 					{
 						"date_begin" : "2018",
@@ -54,7 +55,8 @@
 					{
 						"date_begin" : "2016",
 						"date_end" : "2018",
-						"text" : "<b>Technical Degree in computer science</b>, IUT Illkirch, France"
+						"text" : "<b>Technical Degree in computer science</b>, IUT Illkirch, France",
+						"rank" : "(Class rank: 4/110)"
 					},
 					{
 						"date_begin" : "2016",
@@ -63,18 +65,17 @@
 				]
 			},
 			{
-				"title" : "Work experience",
+				"title" : "Career",
 				"icon" : "fas fa-briefcase",
 				"elements" : [
 					{
 						"date_begin" : "June 2019",
 						"date_end" : "August 2019",
-						"text" : "<b>Internship</b> at Axopen, participation in <b>4 different projects</b>:",
+						"text" : "<b>Internship</b> at Axopen, realization of <b>3 projects</b>:",
 						"list" : [
-							"EADV 2019: designing web-slides <b>(HTML/CSS/JS)</b>.",
-							"Bouyers: development of the settings page for a sound level measurement machine with the <b>Angular</b> framework.",
-							"Axopen's website: creation of pages for the official Axopen website in <b>PHP/HTML/CSS</b> (Wordpress).",
-							"Sport dans la ville (Sport in the town): creation of the registration/modification page for teenagers with the <b>Angular</b> framework."
+							"Creation of the registration/modification page <b>making the registration easier</b> at the 'Sport dans la ville' website for teenagers (<b>Angular</b> framework).",
+							"Creation of web-slides <b>(HTML/CSS/JS)</b> for a big pharmaceutical company.",
+							"Creation of pages for the official Axopen website in <b>PHP/HTML/CSS</b> (Wordpress) to gain more visibility."
 						]
 					},
 					{
@@ -84,28 +85,24 @@
 					{
 						"date_begin" : "June 2018 ",
 						"text" : "<b>Temporary work</b> at JYSK, Horsens, Denmark"
-					},
-					{
-						"date_begin" : "2017",
-						"text" : "Delivery of the municipal news bulletin for a town hall"
 					}
 				]
 			},
 			{
-				"title" : "Softwares Languages / Frameworks",
+				"title" : "Programming Languages & Frameworks",
 				"icon" : "fas fa-laptop-code",
 				"elements" : [
 					{
-						"date_begin" : "Mastered",
-						"text" : "<b>SQL, Python</b>, Java, HTML, CSS, JavaScript, Materialize (CSS), Bootstrap (CSS)"
+						"date_begin" : "Proficient",
+						"text" : "<b>SQL, Python</b>, Java, C++, HTML, CSS, JavaScript, Materialize (CSS), Bootstrap (CSS)"
 					},
 					{
 						"date_begin" : "Familiar",
-						"text" : "<b>PL/SQL, Shell (unix)</b>, C, C#, C++, <b>NodeJs, ReactJs, Angular (JS), VueJS, NextJs</b>, Adobe Photoshop, Blender, Unity, Laravel (PHP), Adobe Premier Pro, Word office suite"
+						"text" : "<b>PL/SQL, Shell (UNIX)</b>, C, C#, <b>NodeJs, ReactJs, Angular (JS), VueJS, NextJs</b>, Unity, Laravel (PHP), <br>Adobe Premiere Pro, Word office suite"
 					},
 					{
 						"date_begin" : "Notions",
-						"text" : "SAS,  assembly language"
+						"text" : "SAS,  assembly language, <br>Adobe Photoshop, Blender"
 					}
 				]
 			},
@@ -116,7 +113,7 @@
 					{
 						"date_begin" : "2019",
 						"date_end" : "2020",
-						"text" : "<b>General secretary</b> of the algorithms <b>INSAlgo association</b> (<b>organisation of algorithm contest</b> like Le Shaker)"
+						"text" : "<b>General secretary</b> of the algorithms <b>INSAlgo association</b> (<b>creation of algorithm contest</b> like Le Shaker)"
 					}, 
 					{
 						"date_begin" : "2017",
@@ -125,23 +122,18 @@
 					},
 					{
 						"date_begin" : "2016",
-						"date_end" : "Present",
-						"text" : "<b>Hackathons</b> (“hacking industry camp”, “the night of the info”, ”24h of the IUT”)"
-					},
-					{
-						"date_begin" : "2016",
 						"date_end" : "",
-						"text" : "<b>Personnal website</b>: www.mathieu-montgomery.ovh (french)"
+						"text" : "<b>Creation of my website</b>: www.mathieu-montgomery.ovh (french)"
 					},
 					{
 						"date_begin" : "2016",
 						"date_end" : "2018",
-						"text" : "<b>Volunteer</b> in the <b>video editing team</b> for the amateur full length movie Edhalion"
+						"text" : "Dedication of 40h to <b>volunteer</b> in the <b>video editing team</b> for the amateur full-length movie Edhalion"
 					},
 					{
 						"date_begin" : "2013",
 						"date_end" : "2017",
-						"text" : "<b>Volunteer</b> in the <b>organisation team</b> of the annual theque competition (French baseball, 400 young participants)"
+						"text" : "<b>Score manager</b> of the annual theque competition (French baseball, 400 young participants)"
 					}
 				]
 			}

@@ -1,10 +1,11 @@
 import {arrayToHtml, listToHtml} from '../utils'
 
 export default class BigComponentPattern {
-	constructor(title, icon, elements) {
+	constructor(title, icon, elements, rank) {
 		this.title = title;
 		this.icon = icon ? icon : null;
 		this.elements = elements ? this.elementsToHtml(elements) : null;
+		this.rank = rank ? this.elementsToHtml(rank) : "null";
 	}
 
 	elementsToHtml(elements) { 
@@ -21,6 +22,7 @@ export default class BigComponentPattern {
 							<div class="big_c_el_list">
 								${e.list ? listToHtml(e.list) : ''}
 							</div>
+							<div class="italique smaller_item">${e.rank ? e.rank : ''}</div>
 						</div>
 					</div>`
 		});

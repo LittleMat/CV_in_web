@@ -19,7 +19,7 @@ const cv_json = require('../cv_english.json')
 function pattern_personnal() {
 	let output = document.querySelector('#pattern_personnal'); // Where it will go
 	let c = cv_json.CV.personnal; // Context in JSON
-	let personnalPattern = new PersonnalPattern(c.last_name, c.first_name, c.picture, c.age, c.nationality, c.address, c.phone, c.email, c.mobility, c.personnal_website);
+	let personnalPattern = new PersonnalPattern(c.name, c.my_title, c.picture, c.age, c.nationality, c.address, c.phone, c.email, c.mobility, c.personnal_website);
 	let injectable = personnalPattern.getHtml(); // What is going to be injected (html)
 	
 	output.innerHTML = injectable; // Inject html structure 
@@ -53,7 +53,7 @@ function pattern_big_components() {
 	let c = cv_json.CV.big_components;
 
 	for (var comp in c) {
-		let bigComponentPattern = new BigComponentPattern(c[comp].title, c[comp].icon, c[comp].elements);
+		let bigComponentPattern = new BigComponentPattern(c[comp].title, c[comp].icon, c[comp].elements, c[comp].rank);
 		injectable += bigComponentPattern.getHtml();
 	}
 

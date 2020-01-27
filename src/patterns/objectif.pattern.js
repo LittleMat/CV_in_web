@@ -8,6 +8,6 @@ export default class ObjectifPattern {
 		return `<div>
 					<div class="objectif_title">${this.title}</div>
 					<div class="objectif_text">${this.text}</div>
-				</div>`
+				</div>` 
 	}
 }

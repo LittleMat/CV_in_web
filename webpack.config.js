@@ -15,7 +15,7 @@ module.exports = {
 			   use: "html-loader"
 			},
 			{
-			  test: /\.(scss)$/,
+			  test: /\.scss$/,
 			  use: [{
 			    loader: 'style-loader', // inject CSS to page
 			  }, {

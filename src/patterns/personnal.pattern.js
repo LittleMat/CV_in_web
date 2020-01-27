@@ -1,9 +1,9 @@
 import ProfilPicture from '../../assets/profil_image.jpg';
 
 export default class PersonnalPattern {
-	constructor(last_name, first_name, picture, age, nationality, address, phone, email, mobility, personnal_website) {
-		this.last_name = last_name;
-		this.first_name = first_name;
+	constructor(name, my_title, picture, age, nationality, address, phone, email, mobility, personnal_website) {
+		this.name = name;
+		this.my_title = my_title;
 		this.picture = picture;
 		this.age = age;
 		this.nationality = nationality;
@@ -16,13 +16,13 @@ export default class PersonnalPattern {
 	}
 
 	getHtml() {
-		return `<div id="first_name" class="name">${this.first_name}</div>
-				<div id="last_name" class="name">${this.last_name}</div>
+		return `<div id="name" class="name">${this.name}</div>
 
 				<img src="${ProfilPicture}" alt="profil_picture" id="profil_picture"/>
 
-				<div id="age" class="small_info small_info_space">${this.age}</div> 
-				<div id="nationality" class="small_info">${this.nationality}</div>
+				<div id="my_title" class="my_title">${this.my_title}</div>
+
+				<div id="age" class="small_info small_info_space">${this.age}, ${this.nationality}</div> 
 
 				<div id="address" class="small_info small_info_space">${this.address}</div>
 				<div id="phone" class="small_info">${this.phone}</div>
@@ -30,6 +30,6 @@ export default class PersonnalPattern {
 
 				<div id="mobility" class="small_info small_info_space">${this.mobility}</div>
 
-				<div id="personnal_website" class="small_info small_info_space">${this.personnal_website}</div>`
+				<a id="personnal_website" class="small_info small_info_space" style='text-decoration: none;' href='http://mathieu-montgomery.ovh/'>${this.personnal_website}</div>`
 	}
 }

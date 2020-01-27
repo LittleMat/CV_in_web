@@ -47,8 +47,8 @@ h1 {
 $green: green;
 $part_1_width: 33%;
 $theme-colors: (
-  "primary": #382360, 
-);
+  "primary": #382360,
+); 
 
 $space_small: 0mm;
 $space_big: 0mm;
@@ -64,9 +64,11 @@ $space_big: 0mm;
 	line-height: 9mm;
 }
 
+
+
 .small_info {
 	font-family: 'Roboto-Light';
-	letter-spacing: 0.1mm;
+	letter-spacing: 0.1mm; 
 	font-size: 4mm;
 	line-height: 5mm;
 }
@@ -80,7 +82,7 @@ $space_big: 0mm;
 // --------------------------------------------------------------
 
 .small_component_holder{ 
-	margin-top: $space_small;
+	margin-top: $space_small; 
 } 
 
 .small_c_title{
@@ -111,4 +113,3 @@ $space_big: 0mm;
 // --------------------------------------------------------------
 //						Custom class
 // --------------------------------------------------------------
-
