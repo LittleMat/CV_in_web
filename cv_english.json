@@ -79,11 +79,13 @@
 					},
 					{
 						"date_begin" : "06/2018 ",
-						"text" : "<b>Summer job</b> for the city of Strasbourg"
+						"company" : "City of Strasbourg",
+						"reason" : "Summer job"
 					},
 					{
 						"date_begin" : "06/2018 ",
-						"text" : "<b>Temporary work</b> at JYSK, Horsens, Denmark"
+						"company" : "JYSK",
+						"reason" : "Temporary work"
 					}
 				]
 			},
@@ -94,7 +96,9 @@
 					{
 						"date_begin" : "2019",
 						"date_end" : "2020",
-						"text" : "<b>General secretary</b> of the algorithms <b>INSAlgo association</b> (<b>creation of algorithm contest</b> like Le Shaker)"
+						"text" : "<b>General secretary</b> of the algorithms <b>INSAlgo association</b>",
+						"list" : ["<b>creation of algorithm contest</b> like Le Shaker"]
+
 					}, 
 					{
 						"date_begin" : "2020",
