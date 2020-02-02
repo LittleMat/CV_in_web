@@ -100,17 +100,17 @@
 				"icon" : "fas fa-users",
 				"elements" : [ 
 					{
+						"date_begin" : "2020",
+						"text" : "<b>OwnCloud project</b> - Integration of my own cloud",
+						"list" : ["Hosted on a Raspberry Pi, 500Go storage capacity"]
+					},
+					{
 						"date_begin" : "2019",
 						"date_end" : "2020",
 						"text" : "<b>General secretary</b> of the algorithms <b>INSAlgo association</b>",
 						"list" : ["<b>Creation of algorithm contest</b> e.g. Le Shaker"]
 
 					}, 
-					{
-						"date_begin" : "2020",
-						"text" : "<b>Owncloud project</b> - Integration of my own cloud",
-						"list" : ["Hosted on a Raspberry Pi, 500Go storage capacity"]
-					},
 					{
 						"date_begin" : "2019",
 						"text" : "Video Game <b>search engine</b> on DBPedia using SPARQL and VueJS"
@@ -147,7 +147,7 @@
 					},
 					{
 						"date_begin" : "Notions",
-						"text" : "Rust, SAS,  assembly language, <br>Adobe Photoshop, Blender"
+						"text" : "<b>NoSQL, Rust</b>, SAS, assembly language, <br>Adobe Photoshop, Blender"
 					}
 				]
 			}
