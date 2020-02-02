@@ -26,9 +26,8 @@ export default class BigComponentPattern {
 						</div>
 						<div class="big_c_el_text">
 							${text} 
-							${company} 
-							<div class="big_el_school_name"> ${school_name} <span class="big_el_school_explanation"> ${school_explanation}</span> </div>
-							<div class="big_el_reason">${reason}</div> 
+							<div class="big_el_school_name"> ${school_name}<span class="big_el_school_explanation">${school_explanation}</span> </div>
+							<div class="big_el_company"><span>${company}</span><span class="big_el_reason">${reason}</span></div> 
 
 							<div class="big_el_school_info"> <span>${school_info}</span> <span class="big_el_school_rank"> ${rank}</span> </div>
 							<div class="italique smaller_item"></div>

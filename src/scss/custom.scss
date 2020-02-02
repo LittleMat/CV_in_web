@@ -155,7 +155,7 @@ h1 {
 
 .big_c_element{
 	display:flex;
-	margin-top: 2mm;
+	margin-top: 3.55mm;
 }
 
 .big_el_school_name{
@@ -173,11 +173,18 @@ h1 {
 	color:$color_secondary;
 	display:flex;
 	justify-content: space-between;
-	padding-bottom: 3px;
+	padding-bottom: 7.4px;
+	margin-top: -5px;
 }
 
 .big_el_school_rank{
 	align-self: right;
+}
+
+.big_el_company{
+	display:flex;
+	justify-content: space-between;
+
 }
 
 
@@ -190,9 +197,12 @@ h1 {
 
 .big_c_el_list ul{
 	padding-left:20px; 
+	margin-top:-4px;
+	margin-bottom:2px;
 }
 
 .big_c_el_list ul li{
+	line-height: 15px;
 	padding-bottom:2px; 
 }
 
