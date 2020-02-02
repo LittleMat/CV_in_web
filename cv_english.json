@@ -49,8 +49,8 @@
 						"school_explanation" : "Computer Science, <b>Engineering diploma</b>",
 						"school_info" : "Lyon, France ",
 						"rank" : "Class rank: 16/100",
-						"list" : ["AGIL project in Java", "Software development : A", "Information System : B"]
-					},
+						"list" : ["AGIL project in Java", "Numerous <b>group projects using Git</b> in C++, Java, SQL.."]
+					}, 
 					{
 						"date_begin" : "2016",
 						"date_end" : "2018",
@@ -58,7 +58,7 @@
 						"school_explanation" : "Computer Science, <b>Technical Degree</b>",
 						"school_info" : "Strasbourg, France",
 						"rank" : "Class rank: 4/110",
-						"list" : ["<b>Semester abroad</b> at the Via University, Horsens, <b>Denmark</b>", "Advanced algorithms", "Back-end development"]
+						"list" : ["<b>Semester abroad</b> at the Via University, Horsens, <b>Denmark</b>", "Numerous <b>group projects using Git</b> in C#, Java, SQL.."]
 					}
 				]
 			},
@@ -99,7 +99,7 @@
 					{
 						"date_begin" : "2020",
 						"text" : "<b>Owncloud project</b> - Integration of my own cloud",
-						"list" : ["Hosted on a rapsberry pi, 500Go HDD"]
+						"list" : ["Hosted on a rapsberry pi, 500Go storage capacity"]
 					},
 					{
 						"date_begin" : "2019",
