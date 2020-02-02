@@ -63,6 +63,6 @@ function pattern_big_components() {
 
 pattern_personnal();
 pattern_small_components();
-pattern_objectif();
+//pattern_objectif();
 pattern_big_components();
 

@@ -44,23 +44,21 @@
 				"elements" : [
 					{
 						"date_begin" : "2018",
-						"date_end" : "Today",
-						"text" : "<b>Computer Science engineering diploma</b>, <b>INSA de Lyon</b> Graduate School, Lyon, France (<b>4th year, Master's level</b>)",
-						"rank" : "(Class rank: 16/100)"
-					},
-					{
-						"date_begin" : "2018",
-						"text" : "<b>Erasmus semester in Denmark</b> at the Via University in Horsens"
+						"date_end" : "2021",
+						"school_name" : "<b>INSA de Lyon </b>",
+						"school_explanation" : "Computer Science, <b>Engineering diploma</b>",
+						"school_info" : "Lyon, France ",
+						"rank" : "Class rank: 16/100",
+						"list" : ["AGIL project in Java", "Software development : A", "Information System : B"]
 					},
 					{
 						"date_begin" : "2016",
 						"date_end" : "2018",
-						"text" : "<b>Technical Degree in computer science</b>, IUT Illkirch, France",
-						"rank" : "(Class rank: 4/110)"
-					},
-					{
-						"date_begin" : "2016",
-						"text" : "Scientific Baccalaureat (High School Diploma), Strasbourg, France"
+						"school_name" : "IUT Robert Schuman",
+						"school_explanation" : "Computer Science, <b>Technical Degree</b>",
+						"school_info" : "Strasbourg, France",
+						"rank" : "Class rank: 4/110",
+						"list" : ["<b>Semester abroad</b> at the Via University, Horsens, <b>Denmark</b>", "Advanced algorithms", "Back-end development"]
 					}
 				]
 			},
@@ -69,22 +67,59 @@
 				"icon" : "fas fa-briefcase",
 				"elements" : [
 					{
-						"date_begin" : "June 2019",
-						"date_end" : "August 2019",
-						"text" : "<b>Internship</b> at Axopen, realization of <b>3 projects</b>:",
+						"date_begin" : "06/2019",
+						"date_end" : "08/2019",
+						"company" : "<b>Axopen</b>",
+						"reason" : "IT Summer Intern",
 						"list" : [
-							"Creation of the registration/modification page <b>making the registration easier</b> at the 'Sport dans la ville' website for teenagers (<b>Angular</b> framework).",
+							"Creation of the registration page <b>making the registration easier</b> for a teenagers association (<b>Angular</b> framework).",
 							"Creation of web-slides <b>(HTML/CSS/JS)</b> for a big pharmaceutical company.",
-							"Creation of pages for the official Axopen website in <b>PHP/HTML/CSS</b> (Wordpress) to gain more visibility."
+							"Creation of pages for the Axopen website in <b>PHP/HTML/CSS</b> (Wordpress) to gain more visibility."
 						]
 					},
 					{
-						"date_begin" : "July 2018 ",
+						"date_begin" : "06/2018 ",
 						"text" : "<b>Summer job</b> for the city of Strasbourg"
 					},
 					{
-						"date_begin" : "June 2018 ",
+						"date_begin" : "06/2018 ",
 						"text" : "<b>Temporary work</b> at JYSK, Horsens, Denmark"
+					}
+				]
+			},
+			{
+				"title" : "Projects",
+				"icon" : "fas fa-users",
+				"elements" : [ 
+					{
+						"date_begin" : "2019",
+						"date_end" : "2020",
+						"text" : "<b>General secretary</b> of the algorithms <b>INSAlgo association</b> (<b>creation of algorithm contest</b> like Le Shaker)"
+					}, 
+					{
+						"date_begin" : "2020",
+						"text" : "<b>Owncloud project</b> - Integration of my own cloud",
+						"list" : ["Hosted on a rapsberry pi, 500Go HDD"]
+					},
+					{
+						"date_begin" : "2019",
+						"text" : "Video Game <b>search engine</b> on DBPedia using SPARQL and VueJS"
+					},
+					{
+						"date_begin" : "2018",
+						"text" : "<b>Decisional databases</b>",
+						"list" : ["Modelization of the <b>ETL process</b>", "Implementation in <b>SQL and PL/SQL</b>"]
+
+					},
+					{
+						"date_begin" : "2016",
+						"date_end" : "",
+						"text" : "<b>Creation of my website</b>: www.mathieu-montgomery.ovh (french)"
+					},
+					{
+						"date_begin" : "2013",
+						"date_end" : "2017",
+						"text" : "<b>Score manager</b> of the annual theque competition (French baseball, 400 young participants)"
 					}
 				]
 			},
@@ -102,38 +137,7 @@
 					},
 					{
 						"date_begin" : "Notions",
-						"text" : "SAS,  assembly language, <br>Adobe Photoshop, Blender"
-					}
-				]
-			},
-			{
-				"title" : "Projects",
-				"icon" : "fas fa-users",
-				"elements" : [ 
-					{
-						"date_begin" : "2019",
-						"date_end" : "2020",
-						"text" : "<b>General secretary</b> of the algorithms <b>INSAlgo association</b> (<b>creation of algorithm contest</b> like Le Shaker)"
-					}, 
-					{
-						"date_begin" : "2017",
-						"date_end" : "Present",
-						"text" : "<b>Development competitions</b> (the Shaker, the Battle Dev)"
-					},
-					{
-						"date_begin" : "2016",
-						"date_end" : "",
-						"text" : "<b>Creation of my website</b>: www.mathieu-montgomery.ovh (french)"
-					},
-					{
-						"date_begin" : "2016",
-						"date_end" : "2018",
-						"text" : "Dedication of 40h to <b>volunteer</b> in the <b>video editing team</b> for the amateur full-length movie Edhalion"
-					},
-					{
-						"date_begin" : "2013",
-						"date_end" : "2017",
-						"text" : "<b>Score manager</b> of the annual theque competition (French baseball, 400 young participants)"
+						"text" : "Rust, SAS,  assembly language, <br>Adobe Photoshop, Blender"
 					}
 				]
 			}

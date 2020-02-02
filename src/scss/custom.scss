@@ -14,14 +14,15 @@ $color_secondary: #6b6b6b ;//#4e377a;
 $theme-colors: (
   "primary": $color_main, 
 );
+
 $part_1_width: 230px;
 $part_2_width: 793.7px - $part_1_width;
 $space_small: 10mm;
-$space_big: 7mm;
+$space_big: 5mm;
 $padding_left_panel:7mm;
 $padding_right_panel:5mm;
 
-$date_width: 21%;
+$date_width: 19%;
 
 $font_title: Roboto-Bold;
 $size_title: 5mm;
@@ -51,6 +52,7 @@ $size_date: 3.7mm;
 .part_1{
 	width: $part_1_width;
 	padding: $padding_left_panel 1mm $padding_left_panel $padding_left_panel;
+	background-color: $color_main;
 	@extend .h-100;
 }
 
@@ -137,7 +139,7 @@ h1 {
 //						Big component
 // --------------------------------------------------------------
 .big_component_holder{
-	margin-top: $space_big;
+	margin-bottom: $space_big;
 }
 
 .big_c_title{
@@ -155,6 +157,45 @@ h1 {
 	display:flex;
 	margin-top: 2mm;
 }
+
+.big_el_school_name{
+	display:flex;
+	justify-content: space-between;
+}
+
+.big_el_school_explanation{
+	align-self: right;
+}
+
+
+.big_el_school_info{
+	font-style: italic;
+	color:$color_secondary;
+	display:flex;
+	justify-content: space-between;
+	padding-bottom: 3px;
+}
+
+.big_el_school_rank{
+	align-self: right;
+}
+
+
+.big_el_reason
+{	
+	font-style: italic;
+	color:$color_secondary;
+	padding-bottom: 2px;
+}
+
+.big_c_el_list ul{
+	padding-left:20px; 
+}
+
+.big_c_el_list ul li{
+	padding-bottom:2px; 
+}
+
 
 .big_c_el_date{
 	box-sizing: border-box;
@@ -214,6 +255,6 @@ h1 {
 	display: none; 
 }
 
-ul{
-	margin:0; 
+ul{ 
+	margin-bottom: 0px; 
 }
