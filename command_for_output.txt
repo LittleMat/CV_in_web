@@ -1,2 +1,6 @@
 C:\Program Files (x86)\Google\Chrome\Application
 chrome --headless --disable-gpu --print-to-pdf="D:\Users\Mathieu\Documents\Projet\CV_in_web\cv_mathieu_montgomery.pdf" http://localhost:8080/
+
+
+
+google-chrome --headless --disable-gpu --print-to-pdf="cv_mathieu_montgomery.pdf" http://localhost:8080/
