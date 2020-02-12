@@ -8,7 +8,6 @@
 			"name" : "Montgomery Mathieu",
 			"my_title" : "Computer Science Engineering Student",
 			"picture" : "",
-			"age" : "21 years",
 			"nationality" : "French",
 			"address" : "Villeurbanne, France ",
 			"phone" : "+33 7 81 64 03 47",
@@ -21,7 +20,7 @@
 				"content" : "",
 				"list" : [
 					"<b>French</b>: mother tongue",
-					"<b>English</b>: fluent",
+					"<b>English</b>: fluent <b>(965/990 TOEIC)</b>",
 					"German: conversational ",
 					"<b>Chinese</b>: notions (beginner)"
 				]
@@ -45,25 +44,25 @@
 					{
 						"date_begin" : "2018",
 						"date_end" : "2021",
-						"school_name" : "<b>INSA de Lyon </b>",
-						"school_explanation" : "Computer Science, <b>Engineering diploma</b>",
-						"school_info" : "Lyon, France ",
-						"rank" : "Class rank: 16/100",
-						"list" : ["AGIL project in Java", "Numerous <b>group projects using Git</b> in C++, <b>Java</b>, SQL..."]
+						"school_name" : "<b>INSA (National Institut of Applied Sciences, 4th year)</b> at Lyon.",
+						"school_info" : "<b>Engineering diploma, Computer Science,</b> Lyon, France",
+						"rank" : "Class rank: <b>16/100</b>",
+						"list" : ["Software Development, AGIL projects, Data Base Management System...", 
+							"Numerous <b>group projects using Git</b> in C++, <b>Java</b>, SQL..."]
 					}, 
 					{
 						"date_begin" : "2016",
 						"date_end" : "2018",
-						"school_name" : "IUT Robert Schuman",
-						"school_explanation" : "Computer Science, <b>Technical Degree</b>",
-						"school_info" : "Strasbourg, France",
-						"rank" : "Class rank: 4/110",
-						"list" : ["<b>Erasmus semester abroad</b> at the Via University, Horsens, <b>Denmark</b>", "Numerous <b>group projects using Git</b> in C#, <b>Java</b>, SQL..."]
+						"school_name" : "IUT Robert Schuman (University Institute of Technology).",
+						"school_info" : "<b>Diploma of Higher Education</b>, Strasbourg, France",
+						"rank" : "Class rank: <b>4/110</b>",
+						"list" : ["<b>Erasmus semester</b> at the Via University, Horsens, <b>Denmark</b>.", 
+							"Algorithms, Advanced Programming, Data Warehousing..."]
 					}
 				]
 			},
 			{
-				"title" : "Career",
+				"title" : "Professional experience",
 				"icon" : "fas fa-briefcase",
 				"elements" : [
 					{
@@ -72,7 +71,7 @@
 						"company" : "<b>Axopen</b>",
 						"reason" : "IT Summer Intern",
 						"list" : [
-							"Creation of the registration page <b>to make the registration easier</b> for a teenager's association (<b>Angular</b> framework).",
+							"Creation of the registration page (<b>Angular</b> framework) <b>to make the registration easier</b> for a teenager's association.",
 							"Creation of web-slides <b>(HTML/CSS/JS)</b> for a big pharmaceutical company (Biogaran).",
 							"Creation of pages for the Axopen website in <b>PHP/HTML/CSS</b> (Wordpress) to gain more visibility."
 						]
@@ -82,7 +81,7 @@
 						"company" : "City of Strasbourg",
 						"reason" : "Summer job",
 						"list" : [
-							"One month summer job for the cleaning service"
+							"One month summer job for the cleaning service."
 						]
 					},
 					{
@@ -90,7 +89,7 @@
 						"company" : "JYSK, Denmark",
 						"reason" : "Temporary work",
 						"list" : [
-							"One month temporary job for a manutention service"
+							"One month temporary job for a manutention service."
 						]
 					}
 				]
@@ -101,45 +100,45 @@
 				"elements" : [ 
 					{
 						"date_begin" : "2020",
-						"text" : "<b>OwnCloud project</b> - Integration of my own cloud",
-						"list" : ["Hosted on a Raspberry Pi, 500Go storage capacity"]
+						"text" : "<b>Personal cloud project</b> - Creation of my own cloud.",
+						"list" : ["Hosted on a Raspberry Pi, 500Go storage capacity."]
 					},
 					{
 						"date_begin" : "2019",
 						"date_end" : "2020",
-						"text" : "<b>General secretary</b> of the algorithms <b>INSAlgo association</b>",
-						"list" : ["<b>Creation of algorithm contest</b> e.g. Le Shaker"]
+						"text" : "<b>General secretary</b> of the algorithms <b>INSAlgo association</b>.",
+						"list" : ["<b>Creation of algorithm contests</b> e.g. Le Shaker <b>(1000 participants, national)</b>."]
 
 					}, 
 					{
 						"date_begin" : "2019",
-						"text" : "Video Game <b>search engine</b> on DBPedia using SPARQL and VueJS"
+						"text" : "Academic project: Video Game <b>search engine</b> on DBPedia using SPARQL and VueJS <b>(team of 6)</b>."
 					},
 					{
 						"date_begin" : "2018",
-						"text" : "<b>Decisional databases</b>",
-						"list" : ["Modeling of the <b>ETL process</b>", "Implementation in <b>SQL and PL/SQL</b>"]
+						"text" : "Academic project: <b>Decisional databases (multicultural team)</b>",
+						"list" : ["Modeling of the <b>ETL process</b>.", "Implementation in <b>SQL and PL/SQL</b>."]
 
 					},
 					{
 						"date_begin" : "2016",
 						"date_end" : "",
-						"text" : "<b>Creation of my website</b>: www.mathieu-montgomery.ovh (french)"
+						"text" : "<b>Creation of my website</b>: www.mathieu-montgomery.ovh (french)."
 					},
 					{
 						"date_begin" : "2013",
 						"date_end" : "2017",
-						"text" : "<b>Score manager</b> of the annual theque competition (French baseball, 400 young participants)"
+						"text" : "<b>Score manager</b> of the annual theque competition (French baseball, 400 young participants)."
 					}
 				]
 			},
 			{
-				"title" : "Programming Languages & Frameworks",
+				"title" : "Programming Languages, Frameworks & tools",
 				"icon" : "fas fa-laptop-code",
 				"elements" : [
 					{
 						"date_begin" : "Proficient",
-						"text" : "<b>SQL, Python, Java, C++</b>, HTML, CSS, JavaScript, Materialize (CSS), Bootstrap (CSS)"
+						"text" : "<b>SQL, Python, Java, C++, GIT</b>, HTML, CSS, JavaScript, Materialize (CSS), Bootstrap (CSS)"
 					},
 					{
 						"date_begin" : "Familiar",

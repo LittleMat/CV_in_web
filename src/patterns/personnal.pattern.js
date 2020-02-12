@@ -1,11 +1,10 @@
 import ProfilPicture from '../../assets/profil_image.jpg';
 
 export default class PersonnalPattern {
-	constructor(name, my_title, picture, age, nationality, address, phone, email, mobility, personnal_website) {
+	constructor(name, my_title, picture, nationality, address, phone, email, mobility, personnal_website) {
 		this.name = name;
 		this.my_title = my_title;
 		this.picture = picture;
-		this.age = age;
 		this.nationality = nationality;
 		this.address = address;
 		this.phone = phone;
@@ -22,7 +21,7 @@ export default class PersonnalPattern {
 
 				<div id="my_title" class="my_title">${this.my_title}</div>
 
-				<div id="age" class="small_info small_info_space">${this.age}, ${this.nationality}</div> 
+				<div id="age" class="small_info small_info_space">${this.nationality}</div> 
 
 				<div id="address" class="small_info small_info_space">${this.address}</div>
 				<div id="phone" class="small_info">${this.phone}</div>

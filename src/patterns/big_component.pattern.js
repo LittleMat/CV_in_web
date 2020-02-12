@@ -16,7 +16,6 @@ export default class BigComponentPattern {
 			var company = e.company ? e.company : '';
 			var text = e.text ? e.text : '';
 			var school_name = e.school_name ? e.school_name : '';
-			var school_explanation = e.school_explanation ? e.school_explanation : '';
 			var reason = e.reason ? e.reason : '';
 			var rank = e.rank ? e.rank : '';
 			var school_info = e.school_info ? e.school_info : '';
@@ -26,7 +25,7 @@ export default class BigComponentPattern {
 						</div>
 						<div class="big_c_el_text">
 							${text} 
-							<div class="big_el_school_name"> ${school_name}<span class="big_el_school_explanation">${school_explanation}</span> </div>
+							<div class="big_el_school_name"> ${school_name}</div>
 							<div class="big_el_company"><span>${company}</span><span class="big_el_reason">${reason}</span></div> 
 
 							<div class="big_el_school_info"> <span>${school_info}</span> <span class="big_el_school_rank"> ${rank}</span> </div>
