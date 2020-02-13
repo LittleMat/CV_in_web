@@ -54,7 +54,7 @@ $size_date: 3.6mm;
 
 .part_1{
 	width: $part_1_width;
-	padding: $padding_left_panel 1mm $padding_left_panel $padding_left_panel;
+	padding: $padding_left_panel 2mm $padding_left_panel $padding_left_panel;
 	background-color: $color_main;
 	@extend .h-100;
 }
