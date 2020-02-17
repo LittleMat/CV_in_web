@@ -25,7 +25,7 @@ export default class PersonnalPattern {
 
 				<div id="address" class="small_info small_info_space">${this.address}</div>
 				<div id="phone" class="small_info">${this.phone}</div>
-				<div id="email" class="small_info">${this.email}</div>
+				<div id="email" class="small_info small_info_email">${this.email}</div>
 
 				<div id="mobility" class="small_info small_info_space">${this.mobility}</div>
 

@@ -15,12 +15,12 @@ $theme-colors: (
   "primary": $color_main, 
 );
 
-$part_1_width: 230px;
+$part_1_width: 240px;
 $part_2_width: 793.7px - $part_1_width;
 $space_small: 10mm;
 $space_big: 5mm;
-$padding_left_panel:7mm;
-$padding_right_panel:5mm 8mm 5mm 5mm;
+$padding_left_panel:6mm;
+$padding_right_panel:5mm 8mm 5mm 4mm;
 
 $date_width: 16%;
 
@@ -30,6 +30,7 @@ $font_title: Roboto-Bold;
 $size_title: 5mm;
 $font_text: Roboto-Light;
 $size_text: 3.8mm;
+$size_text_email: 3mm;
 $size_small_text: 3.3mm;
 $line_height_text: 5mm;
 $size_date: 3.6mm;
@@ -120,6 +121,10 @@ h1 {
 // --------------------------------------------------------------
 //						Small component
 // --------------------------------------------------------------
+.small_info_email{
+	font-size: $size_text - 0.25mm;
+	letter-spacing: -0.20mm;
+}
 
 .small_component_holder{ 
 	margin-top: $space_small;
