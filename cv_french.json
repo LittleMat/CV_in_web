@@ -5,15 +5,13 @@
 			"text" : "<b>Stage de 3 mois et demi mois</b> dans le développement d'applications (<b>back-end</b>)."
 		},
 		"personnal" : {
-			"last_name" : "Montgomery",
-			"first_name" : "Mathieu ",
+			"last_name" : "Mathieu Montgomery",
+			"my_title" : "Elève ingénieur en informatique",
 			"picture" : "",
-			"age" : "21 ans",
-			"nationality" : "Nationalité française",
+			"nationality" : "Français",
 			"address" : "Villeurbanne, France ",
 			"phone" : "+33 7 81 64 03 47",
-			"email" : "matmont98@gmail.com",
-			"mobility" : "Mobilité internationale",
+			"email" : "mathieu.montgomery@protonmail.com",
 			"personnal_website" : "Me découvrir : mathieu-montgomery.ovh"
 		},
 		"small_components" : [
@@ -22,7 +20,7 @@
 				"content" : "",
 				"array" : [
 					"<b>Français</b> : bilingue  (langue maternelle)",
-					"<b>Anglais</b> : <b>bilingue</b>  (TOEIC: 935/990, père anglais)",
+					"<b>Anglais</b> : <b>bilingue</b>  (TOEIC: 965/990, père anglais)",
 					"Allemand : niveau moyen",
 					"<b>Chinois</b> : notions (débutant)"
 				]
@@ -35,7 +33,7 @@
 			},
 			{
 				"title" : "Centres d'intérêts / Hobby",
-				"content" : "Nouvelles technologies, LEGO, automobile, sport, lecture"
+				"content" : "Nouvelles technologies, LEGO, Simulation automobile, sport, lecture"
 			}
 		],
 		"big_components" : [
@@ -45,22 +43,22 @@
 				"elements" : [
 					{
 						"date_begin" : "2018",
-						"date_end" : "Présent",
-						"text" : "<b>INSA Lyon Informatique</b>, actuellement en <b>4ème année</b>"
-					},
-					{
-						"date_begin" : "2018",
-						"text" : "<b>Semestre en ERASMUS</b>  au  <b>Danemark</b> à Horsens, Via University"
+						"date_end" : "2021",
+						"text" : "<b>INSA de Lyon, département informatique</b>, <b>4ème année</b>",
+						"school_info" : "Lyon, France",
+						"rank" : "Classement promo : <b>16/100</b>",
+						"list" : ["Dévelopement, projets AGIL, Système de base de données...", 
+							"Nombreux <b>projets en équipe utilisant GIT</b> en C++, <b>Java</b>, SQL..."]
 					},
 					{
 						"date_begin" : "2016",
 						"date_end" : "2018",
-						"text" : "<b>DUT Informatique</b> à Illkirch (67) "
+						"text" : "<b>DUT Informatique</b> à Illkirch (67)",
+						"school_info" : "Strasbourg, France",
+						"rank" : "Classement promo : <b>4/110</b>",
+						"list" : ["<b>Semestre en ERASMUS</b>  au  <b>Danemark</b> à Horsens, Via University",
+									"Algorithms, Programation Avancée, Bases De Données..."
 					},
-					{
-						"date_begin" : "2016",
-						"text" : "Bac S  <b>mention très bien</b> à Strasbourg (67)"
-					}
 				]
 			},
 			{
@@ -68,14 +66,14 @@
 				"icon" : "fas fa-briefcase",
 				"elements" : [
 					{
-						"date_begin" : "Juin 2019",
-						"date_end" : "Août 2019",
-						"text" : "<b>Stage</b>  chez  Axopen , participation à  <b>4 projets  différents</b> :",
+						"date_begin" : "06/2019",
+						"date_end" : "08/2019",
+						"company" : "Axopen (ESN / projets web, Villeurbanne, France)",
+						"reason": "Stage",
 						"list" : [
-							"EADV 2019 : réalisation de slide en web <b>(HTML/CSS/JS )</b>.",
-							"Bouyers : réalisation de la page de paramétrage en <b>Angular</b> d’un outil de mesure du niveau sonore d’une salle.",
-							"Site web d’Axopen : création de pages pour le site internet d’Axopen en <b>PHP/HTML/CSS</b>  (Wordpress).",
-							"Sport dans la ville : création de la page de modification/ inscription des jeunes de l’association en <b>Angular</b>."
+							"Création de la page d'inscription (framework <b>Angular</b>) <b>pour rendre l'inscription plus facile</b> pour une association d'adolescents.",
+							"Creation of web-slides <b>(HTML/CSS/JS)</b> for a big pharmaceutical company (Biogaran).",
+							"Creation of pages for the Axopen website in <b>PHP/HTML/CSS</b> (Wordpress) to gain more visibility."
 						]
 					},
 					{
