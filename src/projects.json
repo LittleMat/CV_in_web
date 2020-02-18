@@ -1,0 +1,93 @@
+// Normal / Algo
+"list" : ["Software Development, Agile projects, Data Base Management System...", 
+		  "Numerous <b>group projects using Git</b> in C++, <b>Java</b>, SQL..."]
+
+"list" : ["<b>Erasmus semester</b> at the Via University, Horsens, <b>Denmark</b>.", 
+		  "Algorithms, Advanced Programming, Data Warehousing..."]
+
+
+// C++
+"list" : ["Advanced C++, Software Development, Agile projects...", 
+		  "Numerous <b>group projects using Git</b> in C++, <b>Java</b>, SQL..."]
+
+"list" : ["<b>Erasmus semester</b> at the Via University, Horsens, <b>Denmark</b>.", 
+		  "<b>Data structure and fundamental algorithms</b>, Advanced Programming, Graph Theory..."]
+
+
+// Security
+"list" : ["<b>Security and Network</b>, Software Development, Agile projects...", 
+		  "Numerous <b>group projects using Git</b> in C++, <b>Java</b>, SQL..."]
+
+"list" : ["<b>Erasmus semester</b> at the Via University, Horsens, <b>Denmark</b>.", 
+		  "Algorithms, Advanced Programming, Data Warehousing..."]
+
+
+
+"Network" : [ 
+	{
+		"date_begin" : "2020",
+		"text" : "<b>Personal cloud project</b> - Creation of my own cloud.",
+		"list" : ["Hosted on a Raspberry Pi, 500Go storage capacity."]
+	}
+]
+
+"Algorithms" : [
+	{
+		"date_begin" : "2019",
+		"date_end" : "2020",
+		"text" : "<b>General secretary</b> of the algorithms <b>INSAlgo association</b>.",
+		"list" : ["Problem-solving using <b>Python</b>.", "<b>Creation of algorithm contests</b> e.g. Le Shaker <b>(1000 participants, national)</b>."]
+
+	}, 
+	{
+		"date_begin" : "2018",
+		"text" : "Academic project: <b>AES-256 implementation (team of 3)</b>.",
+		"list" : ["Implementation of the AES-256 encryption algorithm in C."]
+
+	},
+]
+"C++" : [
+	{
+		"date_begin" : "2019",
+		"text" : "Academic project: <b>C++ Air Quality (team of 6)</b>.",
+		"list" : ["Read data from air sensors from a CSV file.", "Perform <b>multiple operations</b> to display information (quality of air on a certain territory, amount of a certain gas)."]
+	},
+]
+"Agile" : [
+	{
+		"date_begin" : "2019",
+		"text" : "Academic project: <b>Java delivery (team of 6, Agile management)</b>.",
+		"list" : ["Calculate the shortest path for a delivery man (Travel's man algorithm)."
+				  "Interface uses Java FX, user friendly."]
+	},
+]
+
+"BDD" : []
+	{
+		"date_begin" : "2019",
+		"text" : "Academic project: Video Game <b>search engine</b> on DBPedia using SPARQL and VueJS <b>(team of 6)</b>."
+	},
+	{
+		"date_begin" : "2018",
+		"text" : "Academic project: <b>Decisional databases (multicultural team)</b>",
+		"list" : ["Modeling of the <b>ETL process</b>.", "Implementation in <b>SQL and PL/SQL</b>."]
+
+	}
+]
+
+"Web" : [
+	{
+		"date_begin" : "2016",
+		"date_end" : "",
+		"text" : "<b>Creation of my website</b>: www.mathieu-montgomery.ovh (french)."
+	},
+]
+	
+"Other" : [
+	{
+		"date_begin" : "2013",
+		"date_end" : "2017",
+		"text" : "<b>Score manager</b> of the annual theque competition (French baseball, 400 young participants)."
+	},			 
+	
+]

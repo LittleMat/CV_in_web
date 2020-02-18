@@ -5,20 +5,20 @@
 			"text" : "<b>Stage de 3 mois et demi mois</b> dans le développement d'applications (<b>back-end</b>)."
 		},
 		"personnal" : {
-			"last_name" : "Mathieu Montgomery",
-			"my_title" : "Elève ingénieur en informatique",
+			"name" : "Mathieu Montgomery",
+			"my_title" : "Élève ingénieur en informatique",
 			"picture" : "",
 			"nationality" : "Français",
 			"address" : "Villeurbanne, France ",
 			"phone" : "+33 7 81 64 03 47",
 			"email" : "mathieu.montgomery@protonmail.com",
-			"personnal_website" : "Me découvrir : mathieu-montgomery.ovh"
+			"personnal_website" : "Me découvrir :<br> mathieu-montgomery.ovh"
 		},
 		"small_components" : [
 			{
 				"title" : "Langues",
 				"content" : "",
-				"array" : [
+				"list" : [
 					"<b>Français</b> : bilingue  (langue maternelle)",
 					"<b>Anglais</b> : <b>bilingue</b>  (TOEIC: 965/990, père anglais)",
 					"Allemand : niveau moyen",
@@ -32,8 +32,8 @@
 
 			},
 			{
-				"title" : "Centres d'intérêts / Hobby",
-				"content" : "Nouvelles technologies, LEGO, Simulation automobile, sport, lecture"
+				"title" : "Centres d'intérêts",
+				"list" : ["Nouvelles technologies", "Simulation automobile", "LEGO", "Sport", "Lecture"]
 			}
 		],
 		"big_components" : [
@@ -44,21 +44,18 @@
 					{
 						"date_begin" : "2018",
 						"date_end" : "2021",
-						"text" : "<b>INSA de Lyon, département informatique</b>, <b>4ème année</b>",
+						"text" : "<b>INSA de Lyon, département informatique</b>, <b>4ème année</b>.",
 						"school_info" : "Lyon, France",
-						"rank" : "Classement promo : <b>16/100</b>",
-						"list" : ["Dévelopement, projets AGIL, Système de base de données...", 
-							"Nombreux <b>projets en équipe utilisant GIT</b> en C++, <b>Java</b>, SQL..."]
+						"list" : ["Développement, projets Agile, système de base de données...", "Nombreux <b>projets en équipe utilisant Git</b> en C++, <b>Java</b>, SQL..."]
 					},
 					{
 						"date_begin" : "2016",
 						"date_end" : "2018",
-						"text" : "<b>DUT Informatique</b> à Illkirch (67)",
+						"text" : "<b>DUT Informatique</b> à Illkirch (67).",
 						"school_info" : "Strasbourg, France",
-						"rank" : "Classement promo : <b>4/110</b>",
-						"list" : ["<b>Semestre en ERASMUS</b>  au  <b>Danemark</b> à Horsens, Via University",
-									"Algorithms, Programation Avancée, Bases De Données..."
-					},
+						"list" : ["<b>Semestre en ERASMUS</b>  au  <b>Danemark</b> à Horsens, Via University.",
+									"Algorithmique, programmation avancée, base de données..."]
+					}
 				]
 			},
 			{
@@ -71,40 +68,26 @@
 						"company" : "Axopen (ESN / projets web, Villeurbanne, France)",
 						"reason": "Stage",
 						"list" : [
-							"Création de la page d'inscription (framework <b>Angular</b>) <b>pour rendre l'inscription plus facile</b> pour une association d'adolescents.",
-							"Creation of web-slides <b>(HTML/CSS/JS)</b> for a big pharmaceutical company (Biogaran).",
-							"Creation of pages for the Axopen website in <b>PHP/HTML/CSS</b> (Wordpress) to gain more visibility."
+							"Création de la page d'inscription (framework <b>Angular</b>) pour <b>simplifier l'inscription</b> dans une association d'adolescents.",
+							"Création de slides en web <b>(HTML/CSS/JS)</b> pour une grande compagnie pharmaceutique (Biogaran).",
+							"Création de pages pour le site web d'Axopen en <b>PHP/HTML/CSS</b> (Wordpress) pour gagner en visibilité."
 						]
 					},
 					{
-						"date_begin" : "Juillet 2018 ",
-						"text" : "Travail saisonnier au service propreté de la ville de Strasbourg "
+						"date_begin" : "07/2018 ",
+						"company" : "Ville de Strasbourg",
+						"reason" : "Travail saisonnier",
+						"list" : [
+							"Travail saisonnier au service propreté de la ville de Strasbourg."
+						]
 					},
 					{
-						"date_begin" : "Juin 2018 ",
-						"text" : "<b>Travail en intérim</b> chez JYSK (manutention)"
-					},
-					{
-						"date_begin" : "2017",
-						"text" : "Distribution du journal municipal pour une Mairie"
-					}
-				]
-			},
-			{
-				"title" : "Langages/Framework/Logiciels",
-				"icon" : "fas fa-laptop-code",
-				"elements" : [
-					{
-						"date_begin" : "Maîtrisés",
-						"text" : "<b>C#</b>, Java, <b>Python</b>, HTML, CSS, <b>JavaScript</b>, <b>MySql</b>, Materialize (CSS), <b>Bootstrap</b> (CSS), <b>Angular</b> (JS), Adobe Premier Pro, suite bureautique Word"
-					},
-					{
-						"date_begin" : "Familiers",
-						"text" : "PL/SQL, <b>C</b>, <b>NodeJs, ReactJs, NextJs</b>, Adobe Photoshop, Blender, Unity, Laravel (PHP)"
-					},
-					{
-						"date_begin" : "Notions",
-						"text" : "SAS, Langage Shell (unix), assembleur"
+						"date_begin" : "06/2018 ",
+						"company" : "JYSK (manutention), Danemark",
+						"reason" : "Intérimaire",
+						"list" : [
+							"<b>Travail en intérim</b> chez JYSK."
+						]
 					}
 				]
 			},
@@ -113,34 +96,54 @@
 				"icon" : "fas fa-users",
 				"elements" : [
 					{
+						"date_begin" : "2020",
+						"text" : "<b>Création d'un cloud personnel</b>.",
+						"list" : ["Hosté sur un Raspberry Pi, 500 Go de capacité de stockage."]
+					},
+					{
 						"date_begin" : "2019",
 						"date_end" : "2020",
-						"text" : "<b>Secrétair général</b> de <b>l’association d'algorithme INSAlgo</b> (association pour s’améliorer en algorithmie, <b>organisation de concours d'algorithmique</b> Le Shaker)"
+						"text" : "<b>Secrétaire général</b> de l'association d'algorithmie <b>INSAlgo</b>.",
+						"list" : ["<b>Création de concours d'algorithmie</b>, par ex. Le Shaker <b>(1000 participants, national)</b>."]
+
+					}, 
+					{
+						"date_begin" : "2019",
+						"text" : "Projet académique : <b>moteur de recherche</b> de jeux vidéo sur DBPedia utilisant SPARQL et VueJS <b>(équipe de 6)</b>."
 					},
 					{
-						"date_begin" : "2017",
-						"date_end" : "Présent",
-						"text" : "<b>Compétitions de développement</b>: Shaker, Battle Dev"
-					},
-					{
-						"date_begin" : "2016",
-						"date_end" : "Présent",
-						"text" : "<b>Hackathons</b> : hacking industry camp, la nuit de l’info, 24h des IUT"
+						"date_begin" : "2018",
+						"text" : "Projet académique : <b>base de données décisionnelle (équipe multiculturelle)</b>.",
+						"list" : ["Modélisation des <b>processus ETL</b>.", "Implementation en <b>SQL et PL/SQL</b>."]
+
 					},
 					{
 						"date_begin" : "2016",
 						"date_end" : "",
-						"text" : "Création <b>site web personnel</b> : www.mathieu-montgomery.ovh"
-					},
-					{
-						"date_begin" : "2016",
-						"date_end" : "2018",
-						"text" : "Bénévole dans <b>l’équipe de montage</b> du <b>long métrage</b> Edhalion"
+						"text" : "<b>Création de mon site internet</b> : www.mathieu-montgomery.ovh."
 					},
 					{
 						"date_begin" : "2013",
 						"date_end" : "2017",
-						"text" : "Bénévole dans <b>l'équipe d'organisation</b> d’un tournoi annuel de sport (Jeu de thèque, 400 participants)"
+						"text" : "<b>Manager des scores</b> pour la compétition annuelle de thèque (400 jeunes participants)."
+					}
+				]
+			},
+			{
+				"title" : "Langages, Frameworks & Logiciels",
+				"icon" : "fas fa-laptop-code",
+				"elements" : [
+					{
+						"date_begin" : "Compétent",
+						"text" : "<b>SQL, Python, Java, C++, Git</b>, HTML, CSS, JavaScript, Materialize (CSS), Bootstrap (CSS)."
+					},
+					{
+						"date_begin" : "Familier",
+						"text" : "<b>PL/SQL, Shell (UNIX), C, C#, NodeJs</b>, ReactJs, Angular (JS), VueJS, NextJs, Unity, Laravel (PHP), Adobe Premiere Pro, suite Office."
+					},
+					{
+						"date_begin" : "Notions",
+						"text" : "<b>NoSQL, Rust</b>, SAS, langage assembleur, <br>Adobe Photoshop, Blender."
 					}
 				]
 			}

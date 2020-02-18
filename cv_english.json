@@ -5,7 +5,7 @@
 			"text" : "<b>Summer internship</b> (<b>3 and a half months</b>) in <b>databases</b> and <b>back-end development</b>."
 		},
 		"personnal" : {
-			"name" : "Montgomery Mathieu",
+			"name" : "Mathieu Montgomery",
 			"my_title" : "Computer Science Engineering Student",
 			"picture" : "",
 			"nationality" : "French",
@@ -47,8 +47,8 @@
 						"school_name" : "<b>INSA (National Institut of Applied Sciences, 4th year)</b> at Lyon.",
 						"school_info" : "<b>Engineering diploma, Computer Science,</b> Lyon, France",
 						"rank" : "Class rank: <b>16/100</b>",
-						"list" : ["Software Development, AGIL projects, Data Base Management System...", 
-							"Numerous <b>group projects using Git</b> in C++, <b>Java</b>, SQL..."]
+						"list" : ["Advanced <b>C++</b>, Software Development, Agile projects...", 
+		  						  "Numerous <b>group projects using Git</b> in C++, <b>Java</b>, SQL..."]
 					}, 
 					{
 						"date_begin" : "2016",
@@ -57,7 +57,7 @@
 						"school_info" : "<b>Diploma of Higher Education</b>, Strasbourg, France",
 						"rank" : "Class rank: <b>4/110</b>",
 						"list" : ["<b>Erasmus semester</b> at the Via University, Horsens, <b>Denmark</b>.", 
-							"Algorithms, Advanced Programming, Data Warehousing..."]
+		  						  "<b>Data structure and fundamental algorithms</b>, Advanced Programming, Graph Theory..."]
 					}
 				]
 			},
@@ -68,7 +68,7 @@
 					{
 						"date_begin" : "06/2019",
 						"date_end" : "08/2019",
-						"company" : "<b>Axopen</b>(IT services company, Villeurbanne, France)",
+						"company" : "<b>Axopen</b> (IT services company, Villeurbanne, France)",
 						"reason" : "Internship",
 						"list" : [
 							"Creation of the registration page (<b>Angular</b> framework) <b>to make the registration easier</b> for a teenager's association.",
@@ -107,18 +107,13 @@
 						"date_begin" : "2019",
 						"date_end" : "2020",
 						"text" : "<b>General secretary</b> of the algorithms <b>INSAlgo association</b>.",
-						"list" : ["<b>Creation of algorithm contests</b> e.g. Le Shaker <b>(1000 participants, national)</b>."]
+						"list" : ["Problem-solving using <b>Python</b>.", "<b>Creation of algorithm contests</b> e.g. Le Shaker <b>(1000 participants, national)</b>."]
 
 					}, 
 					{
 						"date_begin" : "2019",
-						"text" : "Academic project: Video Game <b>search engine</b> on DBPedia using SPARQL and VueJS <b>(team of 6)</b>."
-					},
-					{
-						"date_begin" : "2018",
-						"text" : "Academic project: <b>Decisional databases (multicultural team)</b>",
-						"list" : ["Modeling of the <b>ETL process</b>.", "Implementation in <b>SQL and PL/SQL</b>."]
-
+						"text" : "Academic project: <b>C++ Air Quality (team of 6)</b>.",
+						"list" : ["Read data from air sensors from a CSV file.", "Perform <b>multiple operations</b> to display information (quality of air on a certain territory, amount of a certain gas)."]
 					},
 					{
 						"date_begin" : "2016",
@@ -138,7 +133,7 @@
 				"elements" : [
 					{
 						"date_begin" : "Proficient",
-						"text" : "<b>SQL, Python, Java, C++, GIT</b>, HTML, CSS, JavaScript, Materialize (CSS), Bootstrap (CSS)"
+						"text" : "<b>SQL, Python, Java, C++, Git</b>, HTML, CSS, JavaScript, Materialize (CSS), Bootstrap (CSS)"
 					},
 					{
 						"date_begin" : "Familiar",

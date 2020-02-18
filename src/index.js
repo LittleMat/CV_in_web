@@ -12,8 +12,8 @@ import '@fortawesome/fontawesome-free/js/regular'
 import '@fortawesome/fontawesome-free/js/brands'
 
 require('../dist/index.html')
-const cv_json = require('../cv_french.json')
-// const cv_json = require('../cv_english.json')
+// const cv_json = require('../cv_french.json')
+const cv_json = require('../cv_english.json')
 // const cv_json = require('../cv_english_security.json')
 
 // Personnal component
