@@ -47,8 +47,8 @@
 						"school_name" : "<b>INSA (National Institut of Applied Sciences, 4th year)</b> at Lyon.",
 						"school_info" : "<b>Engineering diploma, Computer Science,</b> Lyon, France",
 						"rank" : "Class rank: <b>16/100</b>",
-						"list" : ["Advanced <b>C++</b>, Software Development, Agile projects...", 
-		  						  "Numerous <b>group projects using Git</b> in C++, <b>Java</b>, SQL..."]
+						"list" : ["<b>Object-oriented design and Agile development (Java)</b>, Security and Network, <b>Data Base Management System</b>...", 
+		  						  "Numerous <b>group projects using Git</b> in C++, <b>Java, SQL</b>..."]
 					}, 
 					{
 						"date_begin" : "2016",
@@ -57,7 +57,7 @@
 						"school_info" : "<b>Diploma of Higher Education</b>, Strasbourg, France",
 						"rank" : "Class rank: <b>4/110</b>",
 						"list" : ["<b>Erasmus semester</b> at the Via University, Horsens, <b>Denmark</b>.", 
-		  						  "<b>Data structure and fundamental algorithms</b>, Advanced Programming, Graph Theory..."]
+		  						  "<b>Advanced Programming (Java)</b>, Data structure and fundamental algorithms, <b>Data Warehousing</b>..."]
 					}
 				]
 			},
@@ -112,8 +112,15 @@
 					}, 
 					{
 						"date_begin" : "2019",
-						"text" : "Academic project: <b>C++ Air Quality (team of 6)</b>.",
-						"list" : ["Read data from air sensors from a CSV file.", "Perform <b>multiple operations</b> to display information (quality of air on a certain territory, amount of a certain gas)."]
+						"text" : "Academic project: Delivery <b>(Java, team of 6, Agile management)</b>.",
+						"list" : ["Calculate the shortest path (Travelling salesman algorithm).", 
+								  "<b>Testing with JUnit</b>."
+								]
+					},
+					{
+						"date_begin" : "2019",
+						"text" : "Academic project: <b>Distributed databases (team of 6)</b>",
+						"list" : ["Distribution of a database to several devices with synchronization of the different tables <b>(Oracle SQL and PL/SQL)</b>."]
 					},
 					{
 						"date_begin" : "2016",
@@ -133,15 +140,15 @@
 				"elements" : [
 					{
 						"date_begin" : "Proficient",
-						"text" : "<b>SQL, Python, Java, C++, Git</b>, HTML, CSS, JavaScript, Materialize (CSS), Bootstrap (CSS)"
+						"text" : "<b>Java, SQL, Git, C++, Python</b>, HTML, CSS, JavaScript, Materialize (CSS), Bootstrap (CSS)."
 					},
 					{
 						"date_begin" : "Familiar",
-						"text" : "<b>PL/SQL, Shell (UNIX), C, C#, NodeJs</b>, ReactJs, Angular (JS), VueJS, NextJs, Unity, Laravel (PHP), Adobe Premiere Pro, Word office suite"
+						"text" : "<b>PL/SQL, Shell (UNIX), C, C#, NodeJs</b>, ReactJs, Angular (JS), VueJS, NextJs, Unity, Laravel (PHP), Adobe Premiere Pro, Word office suite."
 					},
 					{
 						"date_begin" : "Notions",
-						"text" : "<b>NoSQL, Rust</b>, SAS, assembly language, <br>Adobe Photoshop, Blender"
+						"text" : "<b>NoSQL, Rust</b>, SAS, assembly language, <br>Adobe Photoshop, Blender."
 					}
 				]
 			}

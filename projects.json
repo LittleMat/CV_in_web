@@ -56,9 +56,10 @@
 "Agile" : [
 	{
 		"date_begin" : "2019",
-		"text" : "Academic project: <b>Java delivery (team of 6, Agile management)</b>.",
-		"list" : ["Calculate the shortest path for a delivery man (Travel's man algorithm)."
-				  "Interface uses Java FX, user friendly."]
+		"text" : "Academic project: Delivery (<b>Java, team of 6, Agile management</b>).",
+		"list" : ["Calculate the shortest path for a delivery agent (Travelling salesman algorithm).", 
+				  "<b>Testing in JUnit</b>.",
+				  "Interface with <b>Java FX</b>, user-friendly."]
 	},
 ]
 
@@ -71,7 +72,11 @@
 		"date_begin" : "2018",
 		"text" : "Academic project: <b>Decisional databases (multicultural team)</b>",
 		"list" : ["Modeling of the <b>ETL process</b>.", "Implementation in <b>SQL and PL/SQL</b>."]
-
+	}
+	{
+		"date_begin" : "2019",
+		"text" : "Academic project: <b>Distributed databases (multicultural team)</b>",
+		"list" : ["Distribution of a database into several devices with synchronization of the different tables.", "Usage of <b>Oracle SQL and PL/SQL</b>."]
 	}
 ]
 
