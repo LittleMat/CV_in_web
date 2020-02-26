@@ -21,7 +21,8 @@
 "list" : ["<b>Erasmus semester</b> at the Via University, Horsens, <b>Denmark</b>.", 
 		  "Algorithms, Advanced Programming, Data Warehousing..."]
 
-
+// Network
+"list" : ["Network architecture"]
 
 "Network" : [ 
 	{
