@@ -109,12 +109,14 @@
 					}, 
 					{
 						"date_begin" : "2019",
-						"text" : "Projet académique : <b>moteur de recherche</b> de jeux vidéo sur DBPedia utilisant SPARQL et VueJS <b>(équipe de 6)</b>."
+						"text" : "Projet académique : Distribution (<b>Java, équipe de 6, Agile</b>).",
+						"list" : ["Calcul du plus court chemin pour un agent de livraison (algorithme du voyageur de commerce).", 
+								  "<b>Tests avec JUnit</b>, interface avec <b>Java FX</b>."]
 					},
 					{
 						"date_begin" : "2018",
 						"text" : "Projet académique : <b>base de données décisionnelle (équipe multiculturelle)</b>.",
-						"list" : ["Modélisation des <b>processus ETL</b>.", "Implementation en <b>SQL et PL/SQL</b>."]
+						"list" : ["Modélisation des <b>processus ETL</b>.", "Implémentation en <b>SQL et PL/SQL</b>."]
 
 					},
 					{
