@@ -6,13 +6,13 @@
 		},
 		"personnal" : {
 			"name" : "Mathieu Montgomery",
-			"my_title" : "Élève ingénieur en informatique",
+			"my_title" : "Élève ingénieur, 5e année, Informatique",
 			"picture" : "",
 			"nationality" : "Français",
-			"address" : "Villeurbanne, France ",
+			"address" : "Strasbourg, France ",
 			"phone" : "+33 7 81 64 03 47",
 			"email" : "mathieu.montgomery@protonmail.com",
-			"personnal_website" : "Me découvrir :<br> mathieu-montgomery.ovh"
+			"personnal_website" : ""
 		},
 		"small_components" : [
 			{
@@ -43,16 +43,20 @@
 				"elements" : [
 					{
 						"date_begin" : "2018",
-						"date_end" : "2021",
-						"text" : "<b>INSA de Lyon, département informatique</b>, <b>4ème année</b>.",
+						"date_end" : "2022",
+						"text" : "<b>INSA de Lyon, département informatique</b>, <b>5ème année</b>.",
 						"school_info" : "Lyon, France",
-						"list" : ["Développement, projets Agile, système de base de données...", "Nombreux <b>projets en équipe utilisant Git</b> en C++, <b>Java</b>, SQL..."]
+						"rank" : "Rang : <b>16/100</b>",
+						"list" : [
+							"<b>Année de césure</b> 2020/2021",
+							"Développement, projets Agile, système de base de données...", "Nombreux <b>projets en équipe utilisant Git</b> en C++, <b>Java</b>, SQL..."]
 					},
 					{
 						"date_begin" : "2016",
 						"date_end" : "2018",
 						"text" : "<b>DUT Informatique</b> à Illkirch (67).",
 						"school_info" : "Strasbourg, France",
+						"rank" : "Rang: <b>4/110</b>",
 						"list" : ["<b>Semestre en ERASMUS</b>  au  <b>Danemark</b> à Horsens, Via University.",
 									"Algorithmique, programmation avancée, base de données..."]
 					}
@@ -63,30 +67,23 @@
 				"icon" : "fas fa-briefcase",
 				"elements" : [
 					{
+						"date_begin" : "05/2020",
+						"date_end" : "08/2020",
+						"company" : "OneStock (Toulouse, France)",
+						"reason": "Stage",
+						"list" : [
+							"<b>Conception, développement et mise en production</b> d'un logiciel permettant aux mannagers de tester automatiquement leurs projets. <b>Réduction de 50 % de leur charge de travail</b> liée aux tests. <b>Python</b>, Flask, SQLAlchemy, et VueJS.",
+							"Contribution à <b>plusieurs projets Python back-end</b> pour des clients dans le secteur du retail (Jules, Darjeeling, Webedia)."
+						]
+					},
+					{
 						"date_begin" : "06/2019",
 						"date_end" : "08/2019",
 						"company" : "Axopen (ESN / projets web, Villeurbanne, France)",
 						"reason": "Stage",
 						"list" : [
 							"Création de la page d'inscription (framework <b>Angular</b>) pour <b>simplifier l'inscription</b> dans une association d'adolescents.",
-							"Création de slides en web <b>(HTML/CSS/JS)</b> pour une grande compagnie pharmaceutique (Biogaran).",
-							"Création de pages pour le site web d'Axopen en <b>PHP/HTML/CSS</b> (Wordpress) pour gagner en visibilité."
-						]
-					},
-					{
-						"date_begin" : "07/2018 ",
-						"company" : "Ville de Strasbourg",
-						"reason" : "Travail saisonnier",
-						"list" : [
-							"Travail saisonnier au service propreté de la ville de Strasbourg."
-						]
-					},
-					{
-						"date_begin" : "06/2018 ",
-						"company" : "JYSK (manutention), Danemark",
-						"reason" : "Intérimaire",
-						"list" : [
-							"<b>Travail en intérim</b> chez JYSK."
+							"Création de slides en web <b>(HTML/CSS/JS)</b> pour une <b>grande compagnie pharmaceutique</b> (Biogaran)."
 						]
 					}
 				]
@@ -118,11 +115,6 @@
 						"text" : "Projet académique : <b>base de données décisionnelle (équipe multiculturelle)</b>.",
 						"list" : ["Modélisation des <b>processus ETL</b>.", "Implémentation en <b>SQL et PL/SQL</b>."]
 
-					},
-					{
-						"date_begin" : "2016",
-						"date_end" : "",
-						"text" : "<b>Création de mon site internet</b> : www.mathieu-montgomery.ovh."
 					},
 					{
 						"date_begin" : "2013",

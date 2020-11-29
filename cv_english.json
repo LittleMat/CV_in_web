@@ -9,10 +9,10 @@
 			"my_title" : "Computer Science Engineering Student",
 			"picture" : "",
 			"nationality" : "French",
-			"address" : "Villeurbanne, France ",
+			"address" : "Strasbourg, France ",
 			"phone" : "+33 7 81 64 03 47",
 			"email" : "mathieu.montgomery@protonmail.com",
-			"personnal_website" : "mathieu-montgomery.ovh"
+			"personnal_website" : ""
 		},
 		"small_components" : [
 			{
@@ -43,11 +43,12 @@
 				"elements" : [
 					{
 						"date_begin" : "2018",
-						"date_end" : "2021",
-						"school_name" : "<b>INSA (National Institut of Applied Sciences, 4th year)</b> at Lyon.",
+						"date_end" : "2022",
+						"school_name" : "<b>INSA (National Institut of Applied Sciences, 5th year)</b>.",
 						"school_info" : "<b>Engineering diploma, Computer Science,</b> Lyon, France",
 						"rank" : "Class rank: <b>16/100</b>",
-						"list" : ["<b>Software Development</b>, Object-oriented design and Agile development, <b>Network Architecture</b>...", 
+						"list" : ["<b>Gap year</b> in 2020/2021",
+								  "<b>Software Development</b>, Object-oriented design and Agile development, <b>Network Architecture</b>...", 
 		  						  "Numerous <b>group projects using Git in C++, Java</b>..."]
 					}, 
 					{
@@ -66,30 +67,23 @@
 				"icon" : "fas fa-briefcase",
 				"elements" : [
 					{
+						"date_begin" : "05/2020",
+						"date_end" : "08/2020",
+						"company" : "<b>OneStock</b> (IT services company, Toulouse, France)",
+						"reason" : "Internship",
+						"list" : [
+							"<b>Design, development, and production implementation</b> of a software for the managers to automatically test their projects. <b>Reduced their testing workload by 50%</b>. <b>Python</b>, Flask, SQLAlchemy, and VueJS.",
+							"Contribution to <b>several back-end Python projects</b> for customers in the retail industry (Jules, Darjeeling, Webedia)"
+						]
+					},
+					{
 						"date_begin" : "06/2019",
 						"date_end" : "08/2019",
-						"company" : "<b>Axopen</b> (IT services company, Villeurbanne, France)",
+						"company" : "<b>Axopen</b> (IT services company, Lyon, France)",
 						"reason" : "Internship",
 						"list" : [
 							"Creation of the registration page (<b>Angular</b> framework) <b>to make the registration easier</b> for a teenager's association.",
-							"Creation of web-slides <b>(HTML/CSS/JS)</b> for a big pharmaceutical company (Biogaran).",
-							"Creation of pages for the Axopen website in <b>PHP/HTML/CSS</b> (Wordpress) to gain more visibility."
-						]
-					},
-					{
-						"date_begin" : "07/2018 ",
-						"company" : "City of Strasbourg",
-						"reason" : "Summer job",
-						"list" : [
-							"One month summer job for the cleaning service."
-						]
-					},
-					{
-						"date_begin" : "06/2018 ",
-						"company" : "JYSK, Denmark",
-						"reason" : "Temporary work",
-						"list" : [
-							"One month temporary job for a manutention service."
+							"Creation of web-slides <b>(HTML/CSS/JS)</b> for a big <b>pharmaceutical company</b> (Biogaran)."
 						]
 					}
 				]
@@ -123,11 +117,6 @@
 						"list" : ["Read data from air sensors from a CSV file.", "Perform <b>multiple operations</b> to display information (quality of air on a certain territory, amount of a certain gas)."]
 					},
 					{
-						"date_begin" : "2016",
-						"date_end" : "",
-						"text" : "<b>Creation of my website</b>: www.mathieu-montgomery.ovh (french)."
-					},
-					{
 						"date_begin" : "2013",
 						"date_end" : "2017",
 						"text" : "<b>Score manager</b> of the annual theque competition (French baseball, 400 young participants)."
@@ -140,7 +129,7 @@
 				"elements" : [
 					{
 						"date_begin" : "Proficient",
-						"text" : "<b>Java, C++, Git, Python, SQL</b>, HTML, CSS, JavaScript, Materialize (CSS), Bootstrap (CSS)."
+						"text" : "<b>Python, Java, C++, Git, SQL</b>, Flask (Python), SQLAlchemy (Python), HTML, CSS, JavaScript, Materialize (CSS), Bootstrap (CSS)."
 					},
 					{
 						"date_begin" : "Familiar",
