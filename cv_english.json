@@ -9,7 +9,7 @@
 			"my_title" : "Computer Science Engineering Student",
 			"picture" : "",
 			"nationality" : "French",
-			"address" : "Strasbourg, France ",
+			"address" : "Le Mans, France ",
 			"phone" : "+33 7 81 64 03 47",
 			"email" : "mathieu.montgomery@protonmail.com",
 			"personnal_website" : ""
@@ -68,12 +68,12 @@
 				"elements" : [
 					{
 						"date_begin" : "05/2020",
-						"date_end" : "08/2020",
+						"date_end" : "07/2021",
 						"company" : "<b>OneStock</b> (IT services company, Toulouse, France)",
-						"reason" : "Internship",
+						"reason" : "Internship + Work",
 						"list" : [
 							"<b>Design, development, and production implementation</b> of a software for the managers to automatically test their projects. <b>Reduced their testing workload by 50%</b>. <b>Python</b>, Flask, SQLAlchemy, and VueJS.",
-							"Contribution to <b>several back-end Python projects</b> for customers in the retail industry (Jules, Darjeeling, Webedia)"
+							"Contribution to <b>several back-end Python projects</b> for customers in the retail industry (Jules, Darjeeling, Pimkie)"
 						]
 					},
 					{
@@ -95,7 +95,7 @@
 					{
 						"date_begin" : "2020",
 						"text" : "<b>Personal cloud project</b> - Creation of my own cloud.",
-						"list" : ["Hosted on a Raspberry Pi, 500Go storage capacity."]
+						"list" : ["Hosted on a Raspberry Pi, 4To storage capacity."]
 					},
 					{
 						"date_begin" : "2019",
@@ -112,9 +112,9 @@
 								]
 					},
 					{
-						"date_begin" : "2019",
-						"text" : "Academic project: <b>C++ Air Quality (team of 6)</b>.",
-						"list" : ["Read data from air sensors from a CSV file.", "Perform <b>multiple operations</b> to display information (quality of air on a certain territory, amount of a certain gas)."]
+						"date_begin" : "2018",
+						"text" : "Academic project: <b>Decisional databases (multicultural team)</b>",
+						"list" : ["Modeling of the <b>ETL process</b>.", "Implementation in <b>SQL and PL/SQL</b>."]
 					},
 					{
 						"date_begin" : "2013",

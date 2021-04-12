@@ -9,7 +9,7 @@
 			"my_title" : "Élève ingénieur, 5e année, Informatique",
 			"picture" : "",
 			"nationality" : "Français",
-			"address" : "Strasbourg, France ",
+			"address" : "Le Mans, France ",
 			"phone" : "+33 7 81 64 03 47",
 			"email" : "mathieu.montgomery@protonmail.com",
 			"personnal_website" : ""
@@ -68,12 +68,12 @@
 				"elements" : [
 					{
 						"date_begin" : "05/2020",
-						"date_end" : "08/2020",
+						"date_end" : "07/2021",
 						"company" : "OneStock (Toulouse, France)",
-						"reason": "Stage",
+						"reason": "Stage + CDD",
 						"list" : [
 							"<b>Conception, développement et mise en production</b> d'un logiciel permettant aux mannagers de tester automatiquement leurs projets. <b>Réduction de 50 % de leur charge de travail</b> liée aux tests. <b>Python</b>, Flask, SQLAlchemy, et VueJS.",
-							"Contribution à <b>plusieurs projets Python back-end</b> pour des clients dans le secteur du retail (Jules, Darjeeling, Webedia)."
+							"Contribution à <b>plusieurs projets Python back-end</b> pour des clients dans le secteur du retail (Jules, Darjeeling, Pimkie)."
 						]
 					},
 					{
@@ -95,7 +95,7 @@
 					{
 						"date_begin" : "2020",
 						"text" : "<b>Création d'un cloud personnel</b>.",
-						"list" : ["Hosté sur un Raspberry Pi, 500 Go de capacité de stockage."]
+						"list" : ["Hosté sur un Raspberry Pi, 4To de capacité de stockage."]
 					},
 					{
 						"date_begin" : "2019",
